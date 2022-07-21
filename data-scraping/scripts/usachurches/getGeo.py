@@ -1,20 +1,18 @@
+# You need to set the mapquest_api environment variable to an api token from https://developer.mapquest.com/plans
+
 import pandas as pd
 import requests
 import json
+import os
 
-#read data txt
-# data = pd.read_csv('output_list.txt', sep=" ", header=None)
-# data.columns = ["Name", "Size", "Address", "More Info"]
-df = pd.read_csv("./data-scraping/data/usachurches.csv")
-# print(df.head())
 
-#API Call and get the Latitude & Longitude values
+df = pd.read_csv("../../data/usachurches.csv")
 
 for i, row in df.iterrows():
     apiAddress = str(df.at[i, 'Address'])
     
     parameters =  {
-        "key" : "5vGx3G8Cvf5NvBuuvcsNQ2POeZ96yM9r",
+        "key" : os.getenv('mapquest_api'),
         "location": apiAddress
     }
     response = requests.get('http://www.mapquestapi.com/geocoding/v1/address', params = parameters)
@@ -27,4 +25,4 @@ for i, row in df.iterrows():
     
     
 #Save data to CSV with geodata
-df.to_csv('./data-scraping/data/usachurches.csv')
+df.to_csv('../../data/usachurches.csv')
