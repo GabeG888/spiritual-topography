@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # Author: Gabe Gordon
-# Scrapes data from churchangel.com into a csv file
-# You need to set the mapbox_token environment variable to an api token from mapbox.com
+# Scrapes data from https://www.episcopalassetmap.org/list into a csv file
 
 
 import time
