@@ -12,7 +12,7 @@ fileNumber = 0
 
 page_URL = "http://hirr.hartsem.edu/cgi-bin/mega/db.pl?db=default&uid=default&view_records=1&ID=*&sb=5"
 page_URL_text = requests.get(page_URL, headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246"}).text
-page_Soup = BeautifulSoup(page_URL_text, 'html.parser') 
+page_Soup = BeautifulSoup(page_URL_text, 'html.parser')
 
 table_rows = page_Soup.find_all('tr', bgcolor="#E2E2E2")
 
@@ -36,7 +36,7 @@ for table_row in table_rows:
         counter += 1
     counter = 0
         
-    save_path = "./data-scraping/data"
+    save_path = "../data"
     file_name = 'megachurches_data.csv'
     completeName = os.path.join(save_path, file_name)
     

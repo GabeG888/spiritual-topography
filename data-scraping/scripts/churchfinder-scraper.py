@@ -63,7 +63,7 @@ for state in states:
                 except AttributeError:
                     church_denomination = "N/A"
                 
-                save_path = "./data-scraping/data"
+                save_path = "../data"
                 file_name = 'churchfinder_data.txt'
                 completeName = os.path.join(save_path, file_name)
                 
