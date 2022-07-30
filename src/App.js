@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
  
-mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FiZWc4ODgiLCJhIjoiY2w1dHdlMWNiMGRkYzNqczJ1NWxpd29nZSJ9.SqDMq9cSmJk8UFI2_oNnBw';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA';
  
 export default function App() {
 const mapContainer = useRef(null);
@@ -14,7 +14,7 @@ useEffect(() => {
 if (map.current) return; // initialize map only once
 map.current = new mapboxgl.Map({
 container: mapContainer.current,
-style: 'mapbox://styles/mapbox/streets-v11',
+style: 'mapbox://styles/gz430/cl6558vg9003i15phej1xoqqg',
 center: [lng, lat],
 zoom: zoom
 });
