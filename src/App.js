@@ -50,17 +50,17 @@ export default function App() {
 				source: 'counties_race_pop',
 				'paint': {
 					'fill-color': {
-						'property': 'pop',
+						'property': 'pop_density',
 						'stops':[
 							[0, '#000000'],
-							[100, '#000022'],
-							[1000, '#000044'],
-							[5000, '#000066'],
-							[10000, '#000088'],
-							[50000, '#0000aa'],
-							[100000, '#0000cc'],
-							[500000, '#0000ee'],
-							[1000000, '#0000ff']
+							[50, '#000022'],
+							[100, '#000044'],
+							[500, '#000066'],
+							[1000, '#000088'],
+							[5000, '#0000aa'],
+							[10000, '#0000cc'],
+							[50000, '#0000ee'],
+							[100000, '#0000ff']
 						]
 					},
 					'fill-opacity': 0.75
@@ -76,6 +76,9 @@ export default function App() {
 					"line-color": "#000000",
 					"line-width": 1,
 				},
+				layout: {
+					'visibility': 'none'
+				}
 			});
 			
 			//Show info when a county is clicked
