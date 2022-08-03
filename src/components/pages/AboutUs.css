@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.about-us,
+.contact-us,
+.github,
+.home,
+.stm {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.wrapper {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center; */
+
+  /* display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+  margin: 0;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  flex: 0 0 33.333333%;
+}
+
+.card__image {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  justify-content: space-between;
+}
+
+.card__title {
+  padding: 1rem;
+  justify-content: space-between;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card__role {
+  padding: 0 1rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card__description {
+  padding: 0 1rem;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card__btn {
+  padding: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid red;
+  background: transparent;
+  color: red;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200 ease-in;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+.card__btn:hover {
+  background: red;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.about-us,
+.contact-us,
+.github,
+.home,
+.stm {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
