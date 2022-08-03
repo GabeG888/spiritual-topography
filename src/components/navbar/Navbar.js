@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div class="nav__border"></div>
+        <div className="nav__border"></div>
         <Link to="/" className="navbar-logo">
           STM
         </Link>
@@ -45,11 +45,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/measure-spirituality"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
+            <Link to="/stm" className="nav-links" onClick={closeMobileMenu}>
               What is a STM?
             </Link>
           </li>
