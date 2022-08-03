@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import counties_race_pop from "./counties_race_pop.json";
 import Home from "./components/pages/Home";
 import AboutUs from "./components/pages/AboutUs";
-import Stm from "./components/pages/Stm";
+import Stm from "./components/pages/stm";
 import Github from "./components/pages/Github";
 import ContactUs from "./components/pages/ContactUs";
 import churches from "./churches.json";
