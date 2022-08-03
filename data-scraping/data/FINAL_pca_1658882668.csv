@@ -27,7 +27,6 @@ City Church Midtown,Birmingham,AL,33.520682,-86.802433
 Clayton Presbyterian Church,Clayton,AL,40.4478165,-79.9013365
 Collinsville Presbyterian Church,Collinsville,AL,34.264831,-85.860864
 Community Presbyterian Church,Moody,AL,33.590937,-86.490817
-Cornerstone Church, PCA,Calera,AL,33.103505,-86.750573
 Cornerstone Presbyterian Church,Huntsville,AL,34.729847,-86.585901
 Covenant Presbyterian Church,Birmingham,AL,33.520682,-86.802433
 Covenant Presbyterian Church,Auburn,AL,32.609857,-85.480783
@@ -183,10 +182,8 @@ Gateway Presbyterian Church,San Fernando,CA,36.464393,-6.198203
 Global Mission Church,Diamond Bar,CA,34.028623,-117.810337
 Grace Church of Marin,San Anselmo,CA,37.974432,-122.561503
 Grace Fresno Presbyterian Church,Fresno,CA,36.739442,-119.784831
-Grace Pasadena Church, Inc.,Pasadena,CA,39.459118,-6.379508
 Grace Presbyterian Church,Yorba Linda,CA,33.89011,-117.824971
 Grace Presbyterian Church of Silicon Valley,Palo Alto,CA,37.444329,-122.159847
-Grace Presbyterian Church, Fallbrook,Fallbrook,CA,33.37642,-117.251147
 Grace Sacramento,Sacramento,CA,38.581061,-121.493895
 Grace South Bay,San Jose,CA,37.336191,-121.890583
 Grace Valley Church,Los Altos,CA,37.379063,-122.116578
@@ -307,7 +304,6 @@ Grace Church Stamford,Stamford,CT,41.05343,-73.538734
 New England Grace Presbyterian Church,West Hartford,CT,41.762045,-72.74204
 Presbyterian Church of Coventry,Coventry,CT,41.770099,-72.30508
 Presbyterian Church of Manchester,Manchester,CT,41.783402,-72.523197
-Grace Presbyterian Church of Washington, DC,Washington,DC,38.895037,-77.036543
 CenterPoint Church ,Smyrna,DE,39.299834,-75.604649
 City Church Wilmington,Wilmington,DE,39.745947,-75.546589
 Crossroads Presbyterian Church,Middletown,DE,39.449686,-75.716681
@@ -496,7 +492,6 @@ Chapel In The Gardens Presbyterian Church,Garden City,GA,32.114372,-81.154001
 Chattanooga Valley Presbyterian Church,Flintstone,GA,34.941743,-85.343569
 Cherokee Presbyterian Church,Canton,GA,34.236762,-84.490762
 Chestnut Mountain Presbyterian Church,Flowery Branch,GA,34.185102,-83.925181
-Christ Church, Presbyterian,Evans,GA,33.5338,-82.130589
 Christ Community Church,Kennesaw,GA,34.023434,-84.61549
 Christ Community Church,Athens,GA,33.959768,-83.376398
 Christ Community Presbyterian Church,Thomasville,GA,30.836582,-83.978781
@@ -669,7 +664,6 @@ Highland Korean Presbyterian Church,Vernon Hills,IL,42.220489,-87.98036
 Korean Church of Chicago,Hoffman Estates,IL,42.042726,-88.079278
 Lakeview Presbyterian Church,Vernon Hills,IL,42.220489,-87.98036
 Lincoln Square Presbyterian Church,Chicago,IL,41.875562,-87.624421
-Living Hope Church, Chicago,Chicago,IL,41.875562,-87.624421
 Marissa Presbyterian Church,Marissa,IL,38.250048,-89.750099
 Missio Dei Church,Manhattan,IL,41.422532,-87.985886
 Naperville Presbyterian Church,Naperville,IL,41.77287,-88.147928
@@ -813,7 +807,6 @@ Harvest Presbyterian Church,Clarksville,MD,39.206545,-76.942918
 Hope Chapel,Lutherville,MD,39.421218,-76.626081
 Hunt Valley Church,Hunt Valley,MD,39.492261,-76.658953
 Inverness Presbyterian Church,Dundalk,MD,39.257411,-76.523675
-Liberty Church, PCA,Owings Mills,MD,39.410542,-76.791696
 Living Hope Presbyterian Church,Havre de Grace,MD,39.548996,-76.091472
 Loch Raven Presbyterian Church,Parkville,MD,39.377329,-76.539688
 Mosaic Community Church,Silver Spring,MD,38.995946,-77.027623
@@ -999,7 +992,6 @@ Prentiss Presbyterian Church,Prentiss,MS,31.598501,-89.867023
 Providence Presbyterian Church,Clinton,MS,32.341534,-90.321759
 Raymond Presbyterian Church,Raymond,MS,32.259278,-90.422595
 Redeemer Church in Saltillo,Saltillo,MS,34.37659,-88.684461
-Redeemer Church, PCA,Jackson,MS,32.299002,-90.184769
 Sardis Presbyterian Church,Sardis,MS,34.437051,-89.915923
 Scooba Presbyterian Church,Scooba,MS,32.829058,-88.47674
 Second Presbyterian Church,Yazoo City,MS,32.855097,-90.405647
@@ -1018,7 +1010,6 @@ Waynesboro Presbyterian Church,Waynesboro,MS,31.674736,-88.645955
 Westminster Presbyterian Church,Greenwood,MS,33.516232,-90.179528
 Westminster Presbyterian Church,Vicksburg,MS,32.352806,-90.877734
 Woodland Presbyterian Church,Hattiesburg,MS,31.327119,-89.290339
-Wynndale Presbyterian Church, PCA,Byram,MS,32.179316,-90.245367
 All Souls Missoula,Missoula,MT,46.870105,-113.995267
 Church of the Cross,Whitefish,MT,48.410802,-114.334624
 Faith Covenant Presbyterian Church,Kalispell,MT,48.202158,-114.315321
@@ -1125,7 +1116,6 @@ Summer Oaks Presbyterian Church,Summerfield,NC,36.208747,-79.904758
 Trinity Church,Winston-Salem,NC,36.099813,-80.244052
 Trinity Park Church,Cary,NC,35.788289,-78.781208
 Trinity Presbyterian Church,Asheville,NC,35.60095,-82.554016
-Uptown Church, PCA,Charlotte,NC,35.227209,-80.843083
 Village Chapel Presbyterian Church,New Bern,NC,35.108493,-77.044114
 Vive Charlotte Church,Charlotte,NC,35.227209,-80.843083
 Wayside Presbyterian Church,Chocowinity,NC,35.512596,-77.100923
@@ -1270,7 +1260,6 @@ Redeemer Church PCA,Hudson,OH,41.240056,-81.440667
 Resurrection Presbyterian Church,Strongsville,OH,41.314473,-81.83511
 South Dayton Presbyterian Church,Dayton,OH,39.758948,-84.191607
 St. John Church,Cincinnati,OH,39.101454,-84.51246
-Story Church, Mayfield,Mayfield Heights,OH,41.519219,-81.457896
 Story Presbyterian Church,Westerville,OH,40.126139,-82.929529
 The Granville Chapel,Granville,OH,40.068119,-82.519604
 The Heights Presbyterian Church,Cleveland,OH,41.505161,-81.693445
@@ -1420,7 +1409,6 @@ Second City Church,Harrisburg,PA,40.266311,-76.886112
 Springton Lake Presbyterian Church,Newtown Square,PA,39.986812,-75.400763
 St. Stephen Reformed Church,New Holland,PA,40.17027,-75.05464
 State College Korean Church,State College,PA,40.79445,-77.861639
-Stillwaters Presbyterian Church, PCA,West Grove,PA,39.821719,-75.826712
 Tenth Presbyterian Church,Philadelphia,PA,39.952724,-75.163526
 Third Reformed Presbyterian Church,Philadelphia,PA,39.952724,-75.163526
 Trinity Presbyterian Church,Harrisburg,PA,40.266311,-76.886112
@@ -1621,7 +1609,6 @@ Redeemer Fellowship of Nashville,Nashville,TN,36.162277,-86.774298
 Redeemer Presbyterian Church,Dickson,TN,36.076653,-87.38701
 Redeemer Presbyterian Church,Memphis,TN,35.149022,-90.051629
 Restoration Southside Church,Chattanooga,TN,35.045722,-85.309488
-Resurrection Presbyterian Church, Inc.,Knoxvillle,TN,35.960395,-83.921026
 Riveroaks Reformed Presbyterian Church,Germantown,TN,35.086758,-89.810086
 Smoky Mountain Presbyterian Church,Maryville,TN,35.756472,-83.970459
 Southpointe Community Church,Nolensville,TN,35.952285,-86.669441
@@ -1763,7 +1750,6 @@ Calvary Presbyterian Church,Norfolk,VA,36.896805,-76.260234
 Calvary Reformed Presbyterian Church,Hampton,VA,37.030097,-76.345206
 Centralia Presbyterian Church,Chester,VA,37.355879,-77.408613
 Chinese Christian Church,Falls Church,VA,38.882334,-77.171091
-Chinese Christian Church of Virginia, Springfield Mission,Springfield,VA,38.789052,-77.187037
 Chosen Presbyterian Church,Fairfax,VA,38.846224,-77.306373
 Christ Central ,Charlottesville,VA,38.029306,-78.476678
 Christ Central Presbyterian Church,Centreville,VA,38.840391,-77.428877
