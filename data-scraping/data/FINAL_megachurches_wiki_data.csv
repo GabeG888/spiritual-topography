@@ -1,506 +1,506 @@
-,name,addr,city,state,attend,denom,lat,lon
-0,Abundant Life Baptist Church,Lees Summit, MO,4,500,Southern Baptist Convention,38.910716,-94.38213
-1,Abundant Life Christian Fellowship[7],Mountain View, CA,4,500,Church of God (Anderson, Indiana),37.389389,-122.08321
-2,Abundant Life Christian Center[8],La Marque, TX,3,000,Nondenominational / Evangelical Christian,29.368567,-94.971313
-3,Abundant Life Church,Denham Springs, LA,2,000,Non-denominational,30.486856,-90.956213
-4,Abundant Living Faith Center,El Paso, TX,12,400,Non-denominational,31.775415,-106.464634
-5,Acts Full Gospel Church,Oakland, CA,6,000,Church of God in Christ,37.804456,-122.271356
-6,Ada Bible Church,Ada, MI,10,000,Non-denominational,42.959373,-85.496158
-7,All Saints Episcopal Church,Pasadena, CA,2,300,Episcopal Church (United States),39.459118,-6.379508
-8,All Souls Unitarian Church,Tulsa, OK,2,167,Unitarian Universalist Association,36.155681,-95.992911
-9,Angelus Temple,Los Angeles, CA,8,300,Foursquare Church,34.053691,-118.242766
-10,Antioch Community Church,Waco, TX,4-5,000,Non-denominational,31.549333,-97.14667
-11,Antioch Missionary Baptist Church,Miami Gardens, FL,7,000,Baptist,25.946705,-80.149024
-12,Apostolic Church of God,Chicago, IL,6,500,Pentecostal Assemblies of the World,41.875562,-87.624421
-13,Apostolic Faith Church,Chicago, IL,2,000,Pentecostal Assemblies of the World,41.875562,-87.624421
-14,Bay Area Christian Church[9],Palo Alto, CA,3,600,Christian churches and churches of Christ,37.444329,-122.159847
-15,Bayside Community Church,Bradenton, FL,12,000,Non-denominational,27.498928,-82.574819
-16,Bayou City Fellowship,Houston, TX,3,000,Southern Baptist Convention,29.758938,-95.367697
-17,Beaverton Foursquare Church,Beaverton, OR,5,600,Foursquare Church,45.487172,-122.80378
-18,Bellevue Baptist Church[10],Memphis, TN,7,138,Southern Baptist Convention,35.149022,-90.051629
-19,Bell shoals baptist church[11],Brandon, FL,3,000,Southern Baptist Convention,27.937801,-82.285925
-20,Beltway Park Baptist Church[12][13],Abilene, TX,2,700,Non-denominational,32.44645,-99.747591
-21,Bethany Baptist Church,Lindenwold, NJ,6,000,Non-denominational,39.812002,-75.005563
-22,Bethany First Church of the Nazarene[14][15],Bethany, OK,2,200,Church of the Nazarene,35.518673,-97.632265
-23,Bethany Church,Baton Rouge, LA,8,000,Non-denominational,30.44596,-91.18738
-24,Bethel Baptist Institutional Church,Jacksonville, FL,8,000,Baptist,30.332184,-81.655651
-25,Bethel Church[16],Redding, CA,8,700,Non-denominational,40.586356,-122.391675
-26,Bethel Church of San Jose[17],San Jose, CA,2,200,Assemblies of God,37.336191,-121.890583
-27,Bethel Korean Presbyterian Church,Ellicott City, MD,2,000,Independent Presbyterian,39.267328,-76.798307
-28,Bethlehem Baptist Church,Minneapolis, MN,4,600,Converge (Baptist denomination),44.9773,-93.265469
-29,Biltmore Church[18],Arden, NC,6,000,Southern Baptist Convention,35.466182,-82.516424
-30,Beulah Missionary Baptist Church,Atlanta, GA,5,000,Southern Baptist Convention,33.748992,-84.390264
-31,Bible Way Church of Atlas Road,Columbia, SC,7,000,,34.000749,-81.034331
-32,Big Valley Grace Community Church[20],Modesto, CA,4,000,Non-denominational,37.639097,-120.996878
-33,Black Rock Church,Fairfield, CT,2,500,Non-denominational,41.141208,-73.263726
-34,Brand New Church,Harrison, AR,3,000,Southern Baptist Convention,36.229794,-93.107677
-35,Brentwood Baptist Church,Brentwood, TN,6,000,Southern Baptist Convention,36.032569,-86.782524
-36,Briarwood Presbyterian Church,Birmingham, AL,4,100,Presbyterian Church in America,33.520682,-86.802433
-37,Bridgeway Community Church,Columbia, MD,4,000,Non-denominational,39.215621,-76.858205
-38,Broadmoor Baptist Church,Madison, MS,3,000,Southern Baptist Convention,32.461809,-90.115364
-39,Brookland Baptist Church,West Columbia, SC,8,100,,33.993487,-81.073983
-40,Brooklyn Tabernacle,New York, NY,8,000,Non-denominational,40.750183,-73.983759
-41,Brookwood Church[21],Simpsonville, SC,5,500,Southern Baptist Convention,34.737064,-82.254283
-42,Calvary Baptist Church,Winston-Salem, NC,6,000,Southern Baptist Convention,36.099813,-80.244052
-43,Calvary Chapel Aurora,Aurora, CO,3,500,Calvary Chapel,39.740511,-104.830995
-44,Calvary Chapel Chino Valley,Chino, CA,8,500,Calvary Chapel,34.013356,-117.690075
-45,Calvary Chapel Costa Mesa[22],Costa Mesa, CA,9,500,Calvary Chapel,33.663339,-117.903317
-46,Calvary Chapel Downey,Downey, CA,7,000,Calvary Chapel,33.942215,-118.123565
-47,Calvary Chapel Fort Lauderdale,Fort Lauderdale, FL,18,500,Calvary Chapel,26.122308,-80.143379
-48,Calvary Chapel Golden Springs,Diamond Bar, CA,12,000,Calvary Chapel,34.028623,-117.810337
-49,Calvary Chapel Melbourne,West Melbourne, FL,10,000,Calvary Chapel,28.042227,-80.664094
-50,Calvary Chapel of Philadelphia,Philadelphia, PA,14,000,Calvary Chapel,39.952724,-75.163526
-51,Calvary Chapel South Bay,Gardena, CA,9,000,Calvary Chapel,33.896359,-118.305304
-52,Calvary Chapel,Tucson, AZ,8,000,Calvary Chapel,32.222877,-110.974848
-53,Calvary Church[23],Charlotte, NC,5,000,,35.227209,-80.843083
-54,Calvary Church,St. Charles, MO,2,400[24],,38.794625,-90.519829
-55,Calvary of Albuquerque,Albuquerque, NM,16,800,Calvary Chapel,35.084103,-106.650985
-56,Calvary Community Church,Phoenix, AZ,11,400,Calvary Chapel,33.448437,-112.074142
-57,Calvary Revival Church,Norfolk, VA,7,000,,36.896805,-76.260234
-58,Calvary Orlando,N/A, FL,2,200,Assemblies of God,28.85703,-82.27593
-59,Campus Church,Pensacola, FL,7,000,,30.421309,-87.216915
-60,Canyon Ridge Christian Church,Las Vegas, NV,6,000,Christian churches and churches of Christ,36.167256,-115.148516
-61,Cathedral Church of the Advent[26],Birmingham, AL,3,600,Episcopal Church (United States),33.520682,-86.802433
-62,Cathedral of Faith[27],San Jose, CA,7,800,Non-denominational,37.336191,-121.890583
-63,Cathedral of Hope,Dallas, TX,4,800,United Church of Christ,32.776272,-96.796856
-64,Cedar Creek Church,Aiken, SC,7,700,Southern Baptist Convention,33.559859,-81.721952
-65,CedarCreek.tv,Perrysburg, OH,7,800,Non-denominational,41.557118,-83.627932
-66,Cedar Springs Presbyterian Church[28],Knoxville, TN,3,700 (2010)[29],Evangelical Presbyterian Church,35.960395,-83.921026
-67,Celebrate Community Church,Sioux Falls, SD,4,100,Wesleyan Church,43.546059,-96.731393
-68,Celebration Church[30],Georgetown, TX,5,000,Non-denominational,30.632694,-97.677231
-69,Celebration Church,Jacksonville, FL,11,100,Non-denominational,30.332184,-81.655651
-70,Celebration Church,New Orleans, LA,7,147,Interdenominational,29.949932,-90.070116
-71,Centerpoint Church,Murrieta, CA,2,700,Free Methodist Church,33.560832,-117.210656
-72,Central Baptist Church of Bearden[28],Knoxville, TN,4,200[29],Southern Baptist Convention,35.960395,-83.921026
-73,Central Baptist Church,Jonesboro, AR,3,500,Southern Baptist Convention,35.842865,-90.703452
-74,Central Christian Church of Arizona,Mesa, AZ,8,800,Non-denominational,33.415112,-111.831479
-75,Central Christian Church,Henderson, NV,21,100,Christian churches and churches of Christ,36.030113,-114.982619
-76,Central Church of God,Charlotte, NC,8,000,Church of God,35.227209,-80.843083
-77,Central Wesleyan Church,Holland, MI,4,200,Wesleyan Church,42.787602,-86.109083
-78,Champion Forest Baptist Church[31],Houston, TX,8,000,Southern Baptist Convention,29.758938,-95.367697
-79,Champions Centre,Tacoma, WA,6,500,Non-denominational, Word of Faith,47.24958,-122.439875
-80,ChangePoint[32],Anchorage, AK,2,500,Non-denominational,61.216313,-149.894852
-81,The Chapel,Fort Wayne, IN,5,000,,41.07999,-85.138602
-82,The Chapel,Akron, OH,7,000,Non-denominational,41.083064,-81.518485
-83,Cherry Hills Community Church[33],Highlands Ranch, CO,6,000,Evangelical Presbyterian Church,39.549724,-104.969566
-84,Chestnut Ridge Church[34],Morgantown, WV,2,400,Evangelical,39.629681,-79.955944
-85,Chet's Creek Church[35],Jacksonville, FL,2,500,Southern Baptist Convention,30.332184,-81.655651
-86,Christ the King Community Church[36],Bellingham, WA,3,000,Non-denominational,48.754401,-122.478836
-87,Christ Life Center[37],Miami, FL,4,000,Reformed Church in America,25.764993375,-80.1852740625
-88,Christ Church of Oak Brook,Oak Brook, IL,5,000,Non-denominational,41.832809,-87.92895
-89,Christ Church,Plano, TX,4,500,Anglican Church in North America,33.013676,-96.69251
-90,Christ Fellowship,Palm Beach Gardens, FL,27,000,Evangelical,26.823395,-80.138655
-91,Christ's Church,Jacksonville, FL,4,200,Christian churches and churches of Christ,30.332184,-81.655651
-92,Christ's Church of the Valley,Peoria, AZ,35,000[38],Non-denominational,33.580612,-112.237294
-93,Christ Covenant Presbyterian Church[39],Matthews, NC,2,400,Presbyterian Church in America,35.115953,-80.722439
-94,Christ United Methodist Church,Memphis, TN,6,900,United Methodist Church,35.149022,-90.051629
-95,Christian Cultural Center,New York, NY,32,000[40],Non-denominational,40.750183,-73.983759
-96,Christian Faith Center,Federal Way, WA,5,900,Non-denominational, Pentecostal,47.313494,-122.33931
-97,Christian Faith Fellowship Church,Milwaukee, WI,6,000,Church of God in Christ,43.034993,-87.922497
-98,Christian Fellowship Church[41],Evansville, IN,2,800,Non-denominational,37.974765,-87.555848
-99,Christ Community Church,St. Charles, IL,4,000,Non-denominational,41.913981,-88.312818
-100,Christ Community Church,Zion, IL,3,000,Nondenominational / Evangelical,42.446132,-87.832851
-101,Christ United Methodist Church,Chattanooga, TN,4,100,United Methodist Church,35.045722,-85.309488
-102,Christ United Methodist Church,Plano, TX,6,200,United Methodist Church,33.013676,-96.69251
-103,The Church at Brook Hills,Birmingham, AL,4,100,Southern Baptist Convention,33.520682,-86.802433
-104,The Church at Rock Creek,Little Rock, AR,4,500,Southern Baptist Convention,34.746481,-92.289595
-105,Church by the Glades,Coral Springs, FL,7,700,Southern Baptist Convention,26.271192,-80.270604
-106,Church of Eleven22,Jacksonville, FL,12,000,Non-denominational,30.332184,-81.655651
-107,Church of the Apostles,Atlanta, GA,3,000,Evangelical Non-Denominational,33.748992,-84.390264
-108,Church of the Highlands,Birmingham, AL,52,000,Non-denominational,33.520682,-86.802433
-109,Church of the Redeemed of the Lord,Baltimore, MD,7,500,,39.290882,-76.610759
-110,Church of the Redeemer,Gaithersburg, MD,6,800,Non-denominational,39.139919,-77.192922
-111,Church of the Resurrection,Leawood, KS,3,312[42],United Methodist Church,38.966673,-94.616901
-112,Church of the Servant,Oklahoma City, OK,7,500,United Methodist Church,35.472989,-97.517054
-113,Church on the Hill,Cedar Hill, TX,2,000,Non-denominational,32.588807,-96.955368
-114,Church on the Move,Tulsa, OK,11,000,,36.155681,-95.992911
-115,Church on the Rock,St. Peters, MO,5,000[43][44],Non-denominational,38.791612,-90.595847
-116,The Church on the Way,Van Nuys, CA,5,000,Foursquare Church,34.186619,-118.448668
-117,Church Unlimited,Corpus Christi, TX,12,000,Non-Denominational,27.795148,-97.394205
-118,The Church Without Walls,Houston, TX,6,400,,29.758938,-95.367697
-119,Churchome,Kirkland, WA,7,200,,47.685957,-122.192025
-120,Mannahouse Church,Portland, OR,7,000,Non-denominational,45.520247,-122.674195
-121,City of Refuge,Gardena, CA,10,000,Pentecostal Assemblies of the World,33.896359,-118.305304
-122,Clear Creek Community Church,League City, TX,4,800,Non-denominational,29.507454,-95.09493
-123,Cokesbury United Methodist Church[28],Knoxville, TN,4,500,United Methodist Church,35.960395,-83.921026
-124,Colonial Heights Baptist Church,Colonial Heights, VA,5,200,Southern Baptist Convention,37.255572,-77.411202
-125,Columbia Community Church (C3),Richland, WA,2,500,Church of God (Anderson, Indiana),46.28043,-119.275206
-126,Community Bible Church[47],San Antonio, TX,14,000,Non-denominational,29.4246,-98.495141
-127,Community Christian Church[50],Naperville, IL,5,400,Non-denominational,41.77287,-88.147928
-128,Community of Faith,Houston, TX,6,000,,29.758938,-95.367697
-129,Compassion Christian Church,Savannah, GA,8,500,Christian,32.080926,-81.091177
-130,Connection Pointe Christian Church of Brownsburg,Brownsburg, IN,4,000,Non-denominational,39.843377,-86.397774
-131,Compass Christian Church,Chandler, AZ,3,400,Non-denominational,33.306161,-111.84125
-132,The Compass Church[52],Naperville, IL,3,000,Evangelical Free Church of America,41.77287,-88.147928
-133,Concordia Lutheran Church[53],San Antonio, TX,3289,Lutheran Church–Missouri Synod,29.4246,-98.495141
-134,Coral Ridge Presbyterian Church[37],Fort Lauderdale, FL,2,000,Presbyterian Church in America,26.122308,-80.143379
-135,Cornerstone Church of Ames[54],Ames, IA,2,000,Evangelical,42.026757,-93.617045
-136,Cornerstone Church,San Antonio, TX,8,400,Non-denominational charismatic,29.4246,-98.495141
-137,Cornerstone Church of San Diego[55],National City, CA,6,300,non-denominational charismatic,32.678109,-117.099197
-138,Cornerstone Church[56],Toledo, OH,4,000,Non-denominational,41.652914,-83.537817
-139,Cornwall Church[57],Bellingham, WA,2,500,Church of God (Anderson, Indiana),48.754401,-122.478836
-140,The Cove Church[58],Mooresville, NC,5,000,Non-denominational,35.58486,-80.810072
-141,Covenant Church,Carrollton, TX,8,000,,32.953735,-96.890282
-142,Covenant Fellowship Church,Glen Mills, PA,4,000,Sovereign Grace Churches,39.919698,-75.490432
-143,Creekside Christian Church,Elk Grove, CA,2,400,Non-denominational,38.408799,-121.371618
-144,Cross Church,Springdale, AR,16,000,Southern Baptist Convention,36.186744,-94.128814
-145,CrossCity Christian Church[59],Fresno, CA,3,500,Non-denominational,36.739442,-119.784831
-146,The Crossing, A Christian church,Las Vegas, NV,5,000,Christian churches and churches of Christ,36.167256,-115.148516
-147,The Crossing Church,Quincy, IL,7,000 [60],Non-denominational,39.935602,-91.409873
-148,The Crossing,Chesterfield, MO,6,000[61],Non-denominational,55.752496,37.58938
-149,The Crossing,N/A, MO,3,000[62],Evangelical Presbyterian Church,59.9266825431611,15.8142380195549
-150,Crossings Community Church,Oklahoma City, OK,10,000,Church of God (Anderson, Indiana),35.472989,-97.517054
-151,Crossroads Church – Cincinnati[63],Cincinnati, OH,38,000,Interdenominational,39.101454,-84.51246
-152,Crossroads Church – Minnesota[64],Woodbury, MN,3,000,Evangelical Covenant Church (ECC),44.919896,-92.933945
-153,Crossroads Christian Church[65],Corona, CA,8,400,Non-denominational,-25.460371,-55.990196
-154,Crossroads Christian Church[66],N/A, TX,6,500,Non-denominational,46.434484,6.909872
-155,Crossroads Community Church,Vancouver, WA,6,000,Calvary Chapel,49.271743,-123.136595
-156,Crossway Baptist Church,N/A, MO,2,000,,59.9266825431611,15.8142380195549
-157,Cypress Church,Columbus, OH,3,900,Wesleyan Church,39.96226,-83.000707
-158,Deliverance Evangelistic Church,Philadelphia, PA,11,000,Non-denominational,39.952724,-75.163526
-159,Denton Bible Church[67],Denton, TX,3,000,Non-denominational,33.215039,-97.133052
-160,Destiny Worship Center,Destin, FL,5,500[69],Non Denominational,30.393534,-86.495783
-161,Downtown Church of Christ,Searcy, AR,2,000,Church of Christ,35.250641,-91.736249
-162,Dream City Church[70],Phoenix, AZ,21,000,Assemblies of God,33.448437,-112.074142
-163,Eagle Brook Church,Lino Lakes, MN,25,340[71],Converge (Baptist denomination),45.160244,-93.088832
-164,Eastern Star Baptist Church,Indianapolis, IN,10,000,,39.768333,-86.15835
-165,Eastside Christian Church,Anaheim, CA,7,000,Christian churches and churches of Christ,33.834752,-117.911732
-166,Eastview Christian Church,Normal, IL,7,000,Non-denominational,40.509287,-88.98438
-167,Ebenezer AME Church,Fort Washington, MD,10,000,African Methodist Episcopal Church,38.712531,-77.01246
-168,ECHO.Church,N/A, CA,3,400,Non-denominational,42.73324,-106.3299
-169,El Rey Jesús (King Jesus International Ministry),Miami, FL,12,500,Non-denominational/Pentecostal,25.764993375,-80.1852740625
-170,Elevation Church,Charlotte, NC,26,000[72],Southern Baptist Convention,35.227209,-80.843083
-171,Elevate Life Church,Riverside, CA,2,000,Non-denominational,51.4791289,-3.1921926
-172,Elmbrook Church,Brookfield, WI,7,000,Non-denominational, Evangelical,43.060567,-88.106479
-173,Emmanuel Presbyterian Church,San Jose, CA,2,200,KAPC,37.336191,-121.890583
-174,Emmanuel Wesleyan Church,Salisbury, MD,2,500,Wesleyan Church,38.366027,-75.600996
-175,Emmanuel Church[73],Greenwood, IN,4,500,Non-demominational,39.613658,-86.106653
-176,Empowerment Temple,Baltimore, MD,10,000,African Methodist Episcopal Church,39.290882,-76.610759
-177,Enon Tabernacle Baptist Church,Philadelphia, PA,15,000,,39.952724,-75.163526
-178,EPIC Church International,Sayreville, NJ,10,100,Non-denominational,40.463536,-74.36185
-179,Evangel Cathedral,Mitchellville, MD,4,000,Non-denominational,38.900621,-76.79522
-180,Fairfax Community Church,Fairfax, VA,2,000,Church of God (Anderson, Indiana),38.846224,-77.306373
-181,Faith Bible Chapel,Arvada, CO,5,500,Non-denominational,39.800551,-105.081157
-182,Faith Chapel Christian Center[74],Birmingham, AL,6,400,Non-denominational,33.520682,-86.802433
-183,Faith Church[75],Dyer, IN,4,000,Reformed Church in America,41.494202,-87.521707
-184,Faith Church,St. Louis, MO, FL,8,000[76],Non-denominational, Word of Faith,38.627791,-90.406371
-185,Faith Landmarks Ministries,Richmond, VA,10,000,,37.538509,-77.43428
-186,Faith Life Church,Branson, MO, FL,2,500[77],Non-denominational, Word of Faith,36.634392,-93.268138
-187,Faith Promise Church,Knoxville, TN,9,000,Inter-denominational,35.960395,-83.921026
-188,Faithful Central Missionary Baptist Church,Inglewood, CA,7,300,,33.9562,-118.353132
-189,Falls Church Anglican,Falls Church, VA,4,300,Anglican Church in North America,38.882334,-77.171091
-190,Family Christian Center,Munster, IN,15,500,Non-denominational,41.56448,-87.512541
-191,Family Community Church[78],San Jose, CA,3,400,Assemblies of God,37.336191,-121.890583
-192,Fellowship Bible Church[79],Little Rock, AR,5,000,Non-denominational,34.746481,-92.289595
-193,Fellowship Bible Church,Brentwood, TN,6,000,Non-denominational,36.032569,-86.782524
-194,Fellowship Bible Church,Rogers, AR,8,000,,36.33202,-94.118537
-195,Fellowship Church,Grapevine, TX,24,162[10],Southern Baptist Convention,32.933738,-97.078875
-196,Fellowship Missionary Baptist Church[80],Chicago, IL,8,000,Baptist,41.875562,-87.624421
-197,First African Methodist Episcopal Church,Los Angeles, CA,10,000,African Methodist Episcopal Church,34.053691,-118.242766
-198,First Assembly of God,Fort Myers, FL,7,500,Assemblies of God,26.640628,-81.872308
-199,First Assembly of God,North Little Rock, AR,3,300,Assemblies of God,34.769536,-92.267094
-200,First Assembly of God,Griffin, GA,7,800,Assemblies of God,33.246781,-84.26409
-201,First Baptist Church,Bentonville, AR,2,200,Southern Baptist Convention,36.372854,-94.208817
-202,First Baptist Church,Jonesboro, AR,2,000,Southern Baptist Convention,35.842865,-90.703452
-203,First Baptist Church of Arnold,Arnold, MO,2,500,Southern Baptist Convention,38.422671,-90.375829
-204,First Baptist Church Atlanta,Atlanta, GA,5,000,Southern Baptist Convention,33.748992,-84.390264
-205,First Baptist Church Dallas[81],Dallas, TX,3,700 (2017 in-person)[82],Southern Baptist Convention,32.776272,-96.796856
-206,Houston's First Baptist Church[83],Houston, TX,6,500,Southern Baptist Convention,29.758938,-95.367697
-207,First Baptist Church of Glenarden,Upper Marlboro, MD,10,548,Converge (Baptist denomination),38.81398,-76.757589
-208,First Baptist Church of Hammond,Hammond, IN,17,700,Baptist,41.583366,-87.500043
-209,First Baptist Church of Jacksonville[84],Jacksonville, FL,5,000,Southern Baptist Convention,30.332184,-81.655651
-210,First Baptist Church Jonesboro,N/A, GA,2,000,Southern Baptist Convention,57.7114853633561,11.9920494122716
-211,First Baptist Church Orlando,Orlando, FL,16,000,Southern Baptist Convention,28.542111,-81.37903
-212,First Baptist Rogers,Rogers, AR,3,000,Southern Baptist Convention,36.33202,-94.118537
-213,First Baptist Church Woodstock[85],Woodstock, GA,9,000,Southern Baptist Convention,34.101411,-84.519219
-214,First Baptist Concord[28],Knoxville, TN,8,000[29],Southern Baptist Convention,35.960395,-83.921026
-215,First Church of Christ,Burlington, KY,2,500,Non-denominational,39.02756,-84.724113
-216,First Evangelical Free Church,Fullerton, CA,6,000,Evangelical Free Church of America,44.756165,-93.63574
-217,First Presbyterian Church[86],Chattanooga, TN,2,500,Presbyterian Church in America,35.045722,-85.309488
-218,First Presbyterian Church,Jackson, MS,3,100,Presbyterian Church in America,32.299002,-90.184769
-219,First Presbyterian Church of Houston[87],Houston, TX,3,600,ECO,29.758938,-95.367697
-220,Flamingo Road Baptist,Cooper City, FL,8,500,Southern Baptist Convention,26.057783,-80.269511
-221,Flatirons Community Church,Lafayette, CO,19,000,Non-denominational evangelical,39.993596,-105.089706
-222,Florence County Baptist Church,Florence, SC,2,000,Southern Baptist Convention,34.198444,-79.767166
-223,Forest Hill Church,Charlotte, NC,5,000,Non-denominational evangelical,35.227209,-80.843083
-224,Foundations Church,Loveland, CO,3,800,Non-denominational evangelical,40.397761,-105.07498
-225,Fountain of Praise,Houston, TX,11,800,,29.758938,-95.367697
-226,Fountain Springs Wesleyan Church,Rapid City, SD,2,700,Wesleyan Church,44.086933,-103.227448
-227,Frazer United Methodist Church[88],Montgomery, AL,2,100[42],United Methodist Church,32.366966,-86.300649
-228,Free Chapel,Gainesville, GA,25,000[89],Church of God,34.297879,-83.824066
-229,Free Life Chapel[91],Lakeland, FL,2,000,Non-denominational,28.039465,-81.949804
-230,Friends Church,Yorba Linda, CA,4,000,Quaker/Evangelical Friends International,33.89011,-117.824971
-231,Friendship West Baptist Church,Dallas, TX,8,000,,32.776272,-96.796856
-232,From the Heart Church Ministries,Temple Hills, MD,5,000,,38.814002,-76.94553
-233,Gateway Church,Southlake, TX,100,000[92],Non-denominational Charismatic,32.941236,-97.134178
-234,Generations Christian Church,Trinity, FL,2,500,Non-denominational,28.180164,-82.654212
-235,Germantown Baptist Church[93],Germantown, TN,12,000,Baptist,35.086758,-89.810086
-236,Geyer Springs First Baptist Church,Little Rock, AR,2,500,Southern Baptist Convention,34.746481,-92.289595
-237,Ginghamsburg Church,Tipp City, OH,5,000,United Methodist Church,39.958389,-84.172164
-238,Grace Baptist Church[28],Knoxville, TN,5,800,Southern Baptist Convention,35.960395,-83.921026
-239,Grace Bible Church,N/A, TX,4,000,Non-denominational,46.434484,6.909872
-240,Grace Church,Noblesville, IN,6,000,Evangelical Free Church of America,40.045592,-86.008596
-241,Grace Church,Eden Prairie, MN,5,000,Non-Denominational, Evangelical,44.854686,-93.470786
-242,Grace Church[94],Dumfries, VA,2,000[95],Non-Denominational,38.56762,-77.328038
-243,Grace Church,Maryland Heights, MO,3,800[2],Non-denominational,38.715051,-90.435999
-244,Grace Community Church,Sun Valley, CA,9,300,Non-denominational, Evangelical,34.217504,-118.370358
-245,Grace Family Church,Cheval, FL,6,200,Non-denominational,28.148625,-82.51454
-246,Granger Community Church,Granger, IN,5,500,United Methodist Church,41.753382,-86.110838
-247,Greater Allen A. M. E. Cathedral of New York[96],New York, NY,20,000,African Methodist Episcopal Church,40.750183,-73.983759
-248,Greater Grace Temple,Detroit, MI,5,000,Pentecostal Assemblies of the World,42.331551,-83.04664
-249,Greater Mount Calvary Holy Church[97],Washington, DC,7,000,Pentecostal,38.895037,-77.036543
-250,Greater St. Stephen Full Gospel Baptist,New Orleans, LA,10,000,Full Gospel Baptist Church Fellowship,29.949932,-90.070116
-251,Green Acres Baptist Church,Tyler, TX,14,000,Southern Baptist Convention,32.35126,-95.301062
-252,Grove City Church of the Nazarene[98],Grove City, OH,2,700,Church of the Nazarene,39.881452,-83.092965
-253,Hales Corners Lutheran Church[99],Hales Corners, WI,8,600,Lutheran Church–Missouri Synod,42.937515,-88.048698
-254,Harvest Bible Chapel,Rolling Meadows, IL,6,000,Non-denominational,42.084194,-88.013128
-255,Harvest Christian Fellowship,Riverside, CA,15,000,Southern Baptist Convention,51.4791289,-3.1921926
-256,Harvester Christian Church,N/A, MO,2,400[100],Non-denominational,59.9266825431611,15.8142380195549
-257,Harvest Time,Fort Smith, AR,2,200,Non-denominational,35.387222,-94.424898
-258,Healing Place Church,Baton Rouge, LA,12,000,Non-denominational,30.44596,-91.18738
-259,Heartland Community Church,Rockford, IL,7,300,,42.271395,-89.093966
-260,Heritage Church,Rock Island, IL,2,600,Wesleyan Church,41.509477,-90.578748
-261,Hickory Grove Baptist Church,Charlotte, NC,11,900,Southern Baptist Convention,35.227209,-80.843083
-262,High Desert Church,Victorville, CA,6,300,,34.536107,-117.291157
-263,Higher Dimension Baptist Church,Houston, TX,,Southern Baptist Convention,29.758938,-95.367697
-264,Highland Park United Methodist Church,Highland Park, TX,2,900[42],United Methodist Church,29.393423,-98.461665
-265,Highlands Fellowship,Abingdon, VA,4,000,Southern Baptist Convention[101],36.709463,-81.983601
-266,Highlands Park,Lakeland, FL,2,300,Church of the Nazarene,28.039465,-81.949804
-267,Highpoint Church,Naperville, IL,3,500,Non-Denominational,41.77287,-88.147928
-268,Highview Baptist Church[102],Louisville, KY,4,000,Southern Baptist Convention,38.254238,-85.759407
-269,Hillside Christian Church,Amarillo, TX,7,000,,35.207219,-101.833825
-270,Hillsong NYC,New York, NY,5,000,Hillsong Church,40.750183,-73.983759
-271,Hope Church,Las Vegas, NV,2,000,Southern Baptist Convention,36.167256,-115.148516
-272,Hope City Church,Houston, TX,12,000,Non-denominational,29.758938,-95.367697
-273,Hope Community Church,Raleigh, NC,15,000,Non-denominational,35.780398,-78.639099
-274,Hope Presbyterian Church,Cordova, TN,7,043,Evangelical Presbyterian Church,35.155645,-89.776196
-275,Hopewell Missionary Baptist,Norcross, GA,16,000,Baptist,33.941213,-84.213531
-276,Horizon Christian Fellowship,San Diego, CA,6,000,Calvary Chapel,32.71742,-117.162773
-277,Hosanna!,Lakeville, MN,6,000,Lutheran Congregation in Mission for Christ,44.650051,-93.243279
-278,Hunter Street Baptist Church[103],Hoover, AL,8,200,Southern Baptist Convention,33.384893,-86.807048
-279,Iglesia Cristiana Segadores de Vida,Hollywood, FL,7,100,Non-denominational,26.011201,-80.14949
-280,Independent Presbyterian Church,Memphis, TN,2,300,Presbyterian Church in America,35.149022,-90.051629
-281,Inland Church,Pomona, CA,2,000,Presbyterian Church in America,34.055381,-117.75175
-282,Inspiring Body of Christ Church,Dallas, TX,7,500,Non-denominational,32.776272,-96.796856
-283,Israel Baptist Church of Baltimore City,Baltimore, MD,3,000,Baptist,39.290882,-76.610759
-284,James River Church,Springfield, MO,17,000,Assemblies of God,37.216678,-93.292037
-285,Joy Church,Mount Juliet, TN,3,000,Non-denominational,36.200055,-86.518605
-286,The Journey,St. Louis, MO,2,500[104][105],Southern Baptist (Acts 29 Network),38.626426,-90.199585
-287,Redemption Church[106],San Jose, CA,14,000,,37.336191,-121.890583
-288,Jubilee Christian Church,Boston, MA,7,000,Church of God (Anderson, Indiana),42.360253,-71.058291
-289,Kensington Church,Troy, MI,15,000,Non-denominational,42.605589,-83.14993
-290,Kentwood Community Church,Kentwood, MI,2,000,Wesleyan Church,42.869473,-85.644749
-291,King's Cathedral and Chapels,Kahului, HI,30,000,Assemblies of God,20.88941,-156.472712
-292,Kingsway Christian Church[109],Avon, IN,2,700,Non-denominational,39.762823,-86.399717
-293,Korean Central Presbyterian Church[110],Centreville, VA,4,500,Presbyterian Church in America,38.840391,-77.428877
-294,La Casa de Cristo Lutheran Church[111],Phoenix, AZ,2,000,Lutheran,33.448437,-112.074142
-295,Lake Pointe Church,Rockwall, TX,11,300,Southern Baptist Convention,32.931234,-96.459709
-296,Lakes Church[112],Lakeland, FL,9,000,Southern Baptist Convention,28.039465,-81.949804
-297,Lakewood Church,Houston, TX,45,000[113],Non-denominational,29.758938,-95.367697
-298,Lancaster Baptist Church,N/A, CA,5,000,Unaffiliated Baptist,42.73324,-106.3299
-299,Legacy Church,Albuquerque, NM,10,100,Non-denominational,35.084103,-106.650985
-300,Lenexa Baptist Church,N/A, KS,2,600[104],Southern Baptist,37.434435,-95.6745975
-301,LibertyLive.church,Hampton, VA,10,000,Southern Baptist Convention,37.030097,-76.345206
-302,Life Center Ministries,New Orleans, LA,6,500,Non-denominational,29.949932,-90.070116
-303,Life Center Foursquare,Spokane, WA,5,000,Foursquare Church,47.657193,-117.423511
-304,Lighthouse Church,Glen Burnie, MD,6,000,Non-denominational,39.16263,-76.625076
-305,Lincoln Berean Church,Lincoln, NE,4,000,,40.808886,-96.707775
-306,LCBC,Manheim, PA,17,000,Non-denominational,40.163736,-76.395243
-307,Life.Church,Edmond, OK,72,500[114],Evangelical Covenant Church (ECC),35.657137,-97.464904
-308,Liquid Church,Mountainside, NJ,5,000[115],Non-denominational,40.672324,-74.357372
-309,Little Country Church,Redding, CA,3,800,Calvary Chapel,40.586356,-122.391675
-310,The Living Word Bible Church,Mesa, AZ,7,500,,33.415112,-111.831479
-311,Living Word Christian Center,Brooklyn Park, MN,6,700,,45.100481,-93.344359
-312,Living Word Christian Center,Chicago, IL,18,000,Non-denominational,41.875562,-87.624421
-313,Living Word Fellowship Church,Houston, TX,2,000,Non-denominational,29.758938,-95.367697
-314,Loma Linda University Church[116],Loma Linda, CA,7,000,Seventh-day Adventist,34.053797,-117.261093
-315,Long Hollow Church,Hendersonville, TN,5,000,Southern Baptist Convention,36.304918,-86.621443
-316,Lutheran Church of Hope,West Des Moines, IA,10,600,Evangelical Lutheran Church in America,41.564534,-93.759528
-317,Mariners Church,Irvine, CA,13,600,Non-denominational Evangelical,33.685697,-117.825982
-318,Maranatha Chapel,San Diego, CA,7,000,Calvary Chapel,32.71742,-117.162773
-319,Mars Hill Bible Church,Grandville, MI,10,000,Non-denominational,42.909598,-85.763096
-320,McLean Bible Church,McLean, VA,16,500,Non-denominational[117],38.934289,-77.177633
-321,Mecklenburg Community Church,Charlotte, NC,6,000,Non-denominational,35.227209,-80.843083
-322,Menlo Church,San Francisco Bay Area, CA,5,000,ECO - A Covenant Order of Evangelical Presbyterians,37.8082,-122.476066
-323,Metropolitan Baptist Church,Washington, DC,6,000,National Baptist,38.895037,-77.036543
-324,Mission Community Church,Gilbert, AZ,3,000[119],Non-denominational,33.352763,-111.789037
-325,Mission Hills Church,Littleton, CO,3,000,Non-denominational,39.613321,-105.01665
-326,Moody Church[120],Chicago, IL,6,000,Evangelical,41.875562,-87.624421
-327,MOSAIC,Los Angeles, CA,7,500,Non-denominational,34.053691,-118.242766
-328,Mt. Airy Church of God in Christ,Philadelphia, PA,5,000,Church of God in Christ,39.952724,-75.163526
-329,Mount Ararat Church,Stafford, VA,3,500,Southern Baptist Convention,38.422268,-77.408407
-330,Mount Olivet Lutheran Church,Minneapolis, MN,5,900,Evangelical Lutheran Church in America,44.9773,-93.265469
-331,Mount Zion Baptist Church,Nashville, TN,13,000,Baptist,36.162277,-86.774298
-332,Mount Ennon Baptist Church,Clinton, MD,8,000,National Baptist,38.765115,-76.898306
-333,Mount Paran Church of God,Atlanta, GA,7,900,Church of God,33.748992,-84.390264
-334,Neighborhood Church,Visalia, CA,2,000,Non-denominational,36.330228,-119.292059
-335,Neighborhood Church of Redding[121],Redding, CA,2,500,Christian and Missionary Alliance,40.586356,-122.391675
-336,New Birth Missionary Baptist Church,Lithonia, GA,12,000,Full Gospel Baptist Church Fellowship,33.712331,-84.105194
-337,New Beginnings Baptist Church,Longview, TX,2,700,Southern Baptist Convention,32.500703,-94.74049
-338,New Hope Christian Fellowship,Honolulu, HI,14,500,Foursquare Church,21.304547,-157.855676
-339,Newhope Church,Durham, NC,7,000,Wesleyan Church,35.996653,-78.901805
-340,New Life Church,Bakersfield, CA,6,500,Foursquare Church,35.373871,-119.019464
-341,New Life Church,Colorado Springs, CO,8,000,Non-denominational Charismatic Evangelical,38.833958,-104.825349
-342,New Life Church,Conway, AR,18,000[122],Non-denominational(ARC),35.088696,-92.442101
-343,New Life Church[123],N/A, NE,2,500,Assemblies of God,50.1048941,14.39604715
-344,New Life Covenant Church,Chicago, IL,20,000,Non-denominational,41.875562,-87.624421
-345,New Life Wesleyan Church,La Plata, MD,4,000,Wesleyan Church,38.526031,-76.976657
-346,New Light Christian Center Church,Houston, TX,20,000,Non-denominational,29.758938,-95.367697
-347,Newport Church,Newport Beach, CA,5,000,Non-denominational,33.617009,-117.92944
-348,New Psalmist Baptist Church,Baltimore, MD,7,000,Non-denominational,39.290882,-76.610759
-349,NewSpring Church,Anderson, SC,20,500[124][125],Southern Baptist Convention,34.50686,-82.650626
-350,New Venture Christian Fellowship,Oceanside, CA,5,600,Non-denominational,33.19587,-117.379483
-351,New Vision Baptist Church,Murfreesboro, TN,3,300,Southern Baptist Convention,35.84604,-86.39211
-352,New Walk Church[126],Zephyrhills, FL,3,000,General Baptist Ministries,28.23362,-82.181195
-353,North Coast Calvary Chapel,Carlsbad, CA,6,000,Calvary Chapel,33.158093,-117.350597
-354,North Coast Church[127],Vista, CA,10,000,Evangelical Free Church of America,33.200037,-117.242536
-355,North Heights Lutheran Church,Roseville, MN,6,000,Alliance of Renewal Churches,45.006077,-93.156611
-356,North Point Church,Springfield, MO,3,000,Assemblies of God,37.216678,-93.292037
-357,North Point Community Church,Alpharetta, GA,30,000[128],Non-denominational,34.070958,-84.274733
-358,NorthPointe Community Church[129],Fresno, CA,2,500,Southern Baptist Convention,36.739442,-119.784831
-359,North Valley Baptist Church[130],Santa Clara, CA,3,000,Independent Baptist,39.471529,-6.372104
-360,Northland, A Church Distributed,Longwood, FL,2,000,Non-denominational,28.70085,-81.346558
-361,NorthRidge Church,Plymouth, MI,2,700,Baptist heritage,45.006515,-93.46651
-362,Northridge Church,Rochester, NY,2,300,Baptist heritage,43.157285,-77.615214
-363,Northside Baptist Church,Charlotte, NC,2,000,Independent Baptist,35.227209,-80.843083
-364,Northside Christian Church,New Albany, IN,5,300,Christian churches and churches of Christ,38.285625,-85.824131
-365,Northside Christian Church,Spring, TX,2,000,Christian churches and churches of Christ,30.079883,-95.417255
-366,Oak Hills Church,San Antonio, TX,9,500,Non-denominational,29.4246,-98.495141
-367,Olive Baptist Church,Pensacola, FL,4,000,Southern Baptist Convention,30.421309,-87.216915
-368,Onnuri Church of Los Angeles,Lake View Terrace, CA,4,500,Christian Reformed Church in North America,34.295365,-118.346245
-369,Opendoor Presbyterian Church of Los Angeles,Los Angeles, CA,3,000,Presbyterian (WKPC),34.053691,-118.242766
-370,Open Door Presbyterian Church,Herndon, VA,2,000,Presbyterian,38.969532,-77.385948
-371,One Community Church,Plano, TX,10,000,Non-denominational,33.013676,-96.69251
-372,Overcoming Believers Church,Knoxville, TN,2,500,Non-denominational,35.960395,-83.921026
-373,Overlake Christian Church,Redmond, WA,3,000,Non-denominational,47.669414,-122.123877
-374,Park Street Church[131],Boston, MA,2,000,Conservative Congregational Christian Conference,42.360253,-71.058291
-375,Park Cities Presbyterian Church,Dallas, TX,5,500,Presbyterian Church in America,32.776272,-96.796856
-376,Parkview Christian Church[132],Orland Park, IL,9,800,Non-denominational,41.630663,-87.853629
-377,Passion City Church,Atlanta, GA,5,000,Non-denominational,33.748992,-84.390264
-378,Pathway Church[133],Wichita, KS,3,000,Christian churches and churches of Christ,37.692236,-97.337545
-379,Perimeter Church[134],Johns Creek, GA,4,000,Presbyterian Church in America,34.018156,-84.190196
-380,Peachtree Presbyterian Church[135],Atlanta, GA,6,738,Presbyterian Church (USA),33.748992,-84.390264
-381,Pentecostals of Alexandria, The[136],Alexandria, LA,3,000,United Pentecostal Church,31.311248,-92.444909
-382,Peoples Church[137],Fresno, CA,4,000,Assemblies of God,36.739442,-119.784831
-383,Pilgrim Mission Church[138],Teaneck, NJ,2,000,ECO,40.886016,-74.007257
-384,Pleasant Valley Baptist Church,Liberty, MO,2,500,Southern Baptist Convention,55.753269,37.635091
-385,Pinelake Church[139],Flowood, MS,9,100,Southern Baptist Convention,32.309274,-90.138908
-386,Potential Church[140],Fort Lauderdale, FL,12,000,Southern Baptist Convention,26.122308,-80.143379
-387,The Potter's House,Dallas, TX,16,100,Non-denominational,32.776272,-96.796856
-388,Prestonwood Baptist Church,Plano, TX,15,800,Southern Baptist Convention,33.013676,-96.69251
-389,Purpose Church[141],N/A, CA,3,000,Transformation Ministries,42.73324,-106.3299
-390,Quest Community Church,Lexington, KY,10,000,Christian and Missionary Alliance,38.046407,-84.497039
-391,Real Life Ministries,Post Falls, ID,7,000,Non-denominational,47.711011,-116.948088
-392,Redeemer Presbyterian Church,New York, NY,5,000,Presbyterian Church in America,40.750183,-73.983759
-393,Relentless Church[142],Greenville, SC,14,000,International Pentecostal Holiness Church,34.851354,-82.398488
-394,Reid Temple A.M.E. Church,Glenn Dale, MD,7,600,African Methodist Episcopal Church,38.978116,-76.805063
-395,Resurrection Life Church,Grandville, MI,7,500,Non-denominational,42.909598,-85.763096
-396,Rhema Bible Church,Broken Arrow, OK,3,000,Non-denominational,36.052599,-95.79082
-397,Richmond Outreach Center,Richmond, VA,4,000,,37.538509,-77.43428
-398,River Church[143],Anaheim, CA,10,000,Assemblies of God,33.834752,-117.911732
-399,River Valley Church[144],Apple Valley, MN,9,500,Assemblies of God,44.731909,-93.21772
-400,River of Life Christian Church[145],Santa Clara, CA,3,000,Non-denominational,39.471529,-6.372104
-401,Riverside Baptist Church[146],Denver, CO,2,800,Southern Baptist Convention,39.739236,-104.984862
-402,The Rock Church & World Outreach Center[147],San Bernardino, CA,9,000,Non-denominational,34.108345,-117.289765
-403,Rock Church,San Diego, CA,12,900,Non-denominational,32.71742,-117.162773
-404,Rock City Church,Columbus, OH,5,500,Non-denominational,39.96226,-83.000707
-405,The Rock Family Worship Center,Huntsville, AL,4,500,Non-denominational,34.729847,-86.585901
-406,Rock Harbor Church[148],Costa Mesa, CA,5,000,Non-denominational evangelical,33.663339,-117.903317
-407,Rocky Mountain Calvary Chapel[149],Colorado Springs, CO,2,000,Calvary Chapel,38.833958,-104.825349
-408,Rolling Hills Christian Church,El Dorado Hills, CA,2,200,Non-denominational,38.656119,-121.074327
-409,Saddleback Church[10],Lake Forest, CA,22,100,Southern Baptist Convention,33.646926,-117.685921
-410,Sagebrush Church[150],Albuquerque, NM,20,000,Non-denominational,35.084103,-106.650985
-411,Sagemont Church,Houston, TX,17,700,Southern Baptist Convention,29.758938,-95.367697
-412,Pathfinder Church,St. Louis, MO,2,900[151],Lutheran Church–Missouri Synod,38.626426,-90.199585
-413,St. John Baptist Church,Grand Prairie, TX,8,200,Baptist,32.745965,-96.997785
-414,Saint Louis Family Church,Chesterfield, MO,6,000,Non-denominational,55.752496,37.58938
-415,Saint Mark Baptist Church,Little Rock, AR,8,000,Baptist,34.746481,-92.289595
-416,St. Mark's United Methodist,Lincoln, NE,2,000[152],United Methodist,40.808886,-96.707775
-417,St. Martin's Episcopal Church,Houston, TX,8,300[153],Episcopal Church (United States),29.758938,-95.367697
-418,St. Matthews Baptist Church,Williamstown, NJ,13,000,Baptist,39.686226,-74.995168
-419,St. Paul's Baptist Church,Richmond, VA,6,500,Southern Baptist Convention,37.538509,-77.43428
-420,St. Stephen Church,Louisville, KY,10,700,Baptist,38.254238,-85.759407
-421,Salem Baptist Church,Chicago, IL,10,100,Baptist,41.875562,-87.624421
-422,Salem Baptist Church (Apex),Apex, NC,3,000,Southern Baptist Convention,35.732535,-78.850552
-423,Sandals Church,Riverside, CA,15,000,Southern Baptist Convention,51.4791289,-3.1921926
-424,Sarang Community Church of Southern California,Anaheim, CA,11,000[154],Presbyterian Church in America,33.834752,-117.911732
-425,Scottsdale Bible Church,Scottsdale, AZ,7,723[155],Bible Church,33.494219,-111.926018
-426,Seacoast Church,Mount Pleasant, SC,9,200,Interdenominational,32.794065,-79.862585
-427,Second Baptist Church Houston,Houston, TX,23,700[156],Southern Baptist Convention,29.758938,-95.367697
-428,Second Ebenezer Church,Detroit, MI,5,000,Baptist,42.331551,-83.04664
-429,Set Free Christian Fellowship,Buena Park, CA,6,000,Non-denominational,33.870413,-117.996217
-430,Sevier Heights Baptist Church[28],Knoxville, TN,4,500,Southern Baptist Convention,35.960395,-83.921026
-431,Shadow Mountain Community Church,El Cajon, CA,7,500,Southern Baptist Convention,32.794773,-116.962527
-432,Shepherd of the Hills Church,Porter Ranch, CA,8,700,Christian churches and churches of Christ,34.281816,-118.561271
-433,The Shepherd's Church,Cary, NC,4,000,,35.788289,-78.781208
-434,Shiloh Church[157],Oakland, CA,4,500,Christian,37.804456,-122.271356
-435,Shoreline Christian Center,Austin, TX,8,000,Non-denominational,30.271129,-97.7437
-436,Shoreline City Church,Dallas, TX,5,000,Non-denominational,32.776272,-96.796856
-437,Sixth Avenue Baptist Church,Birmingham, AL,3,000,Baptist,33.520682,-86.802433
-438,Skybreak Church,Bryan, College Station, TX,2,500,Non-denominational,30.55471,-96.29591
-439,Skyline Church[158],La Mesa, CA,2,500,Wesleyan Church,32.767829,-117.023084
-440,Southeast Christian Church,Middletown, KY,25,940[160],Christian churches and churches of Christ,38.245349,-85.538849
-441,Southlake Foursquare Church,West Linn, OR,3,500,Foursquare Church,45.365676,-122.612314
-442,Southland Christian Church,Nicholasville, KY,12,600,Christian churches and churches of Christ,37.880634,-84.572996
-443,Spanish River Church[161],Boca Raton, FL,2,000,Presbyterian Church in America,26.358689,-80.083098
-444,St. Andrews Presbyterian Church,Newport Beach, CA,2,000,ECO: A Covenant Order of Evangelical Presbyterians,33.617009,-117.92944
-445,Stonebriar Community Church,Frisco, TX,5,200,Non-denominational evangelical,33.150674,-96.823612
-446,Substance Church[162],N/A, MN,12,000,Non-Denominational (ARC),32.786587,-97.044327
-447,The Ransom Church,Sioux Falls, SD,2,000,Wesleyan Church,43.546059,-96.731393
-448,The Summit Church,Durham, NC,6,600,Southern Baptist Convention,35.996653,-78.901805
-449,Temple Baptist Church[28],Powell, TN,6,000[29],Independent Baptist,36.031747,-84.027968
-450,Temple of Praise,Washington, DC,2,500,Non-denominational,38.895037,-77.036543
-451,Thomas Road Baptist Church,Lynchburg, VA,8,400,Southern Baptist Convention,37.413754,-79.142246
-452,Timberlake Church,Redmond, WA,3,000,Free Methodist Church,47.669414,-122.123877
-453,Timberline Church,Fort Collins, CO,6,000,Assemblies of God,40.550853,-105.066809
-454,Times Square Church,New York, NY,8,000,,40.750183,-73.983759
-455,Transformation Church,Tulsa, OK,4,100,Non-denominational,36.155681,-95.992911
-456,Trinity United Church of Christ,Chicago, IL,8,500,United Church of Christ,41.875562,-87.624421
-457,Triumph Church[163],Detroit, MI,11,600,Missionary Baptist,42.331551,-83.04664
-458,Truro Church,Fairfax, VA,4,000,Anglican Church in North America,38.846224,-77.306373
-459,Trinity Chapel Church of God,Powder Springs, GA,6,500,,33.859549,-84.683824
-460,Trinity Church Cedar Hill,N/A, TX,5,000,Non-denominational,46.434484,6.909872
-461,Twin Rivers Worship Center,N/A, MO,2,600,Church of God,59.9266825431611,15.8142380195549
-462,12Stone Church,Lawrenceville, GA,17,200,Wesleyan Church,33.956215,-83.987963
-463,University Park Baptist Church,Charlotte, NC,6,000,BGC,35.227209,-80.843083
-464,Valley Baptist Church,Bakersfield, CA,4,300,Southern Baptist Convention,35.373871,-119.019464
-465,Valley Bible Fellowship,Bakersfield, CA,10,300,,35.373871,-119.019464
-466,Valley Family Church[164],Kalamazoo, MI,4,000,Non-denominational,42.291707,-85.587229
-467,Valley View Church,Louisville, KY,5,000,Southern Baptist Convention,38.254238,-85.759407
-468,Venture Christian Church[165],Los Gatos, CA,6,000,Non-denominational,37.226611,-121.97468
-469,Victory Church[166],Lakeland, FL,2,000,Assemblies of God,28.039465,-81.949804
-470,Victory Church,Oklahoma City, OK,7,800,Non-denominational,35.472989,-97.517054
-471,Victory Christian Center,Tulsa, OK,9,300,Non-denominational,36.155681,-95.992911
-472,Victory Church[167],Norcross, GA,10,200,Non-denominational[168],33.941213,-84.213531
-473,The Village Church,Highland Village, TX,10,200,Southern Baptist Convention,33.091788,-97.046676
-474,Village Seven Presbyterian Church[169],Colorado Springs, CO,2,100,Presbyterian Church in America,38.833958,-104.825349
-475,Vineyard Cincinnati,Cincinnati, OH,3,000,Association of Vineyard Churches,39.101454,-84.51246
-476,Vineyard Columbus,Westerville, OH,7,900,Association of Vineyard Churches,40.126139,-82.929529
-477,Voices of Faith Ministries,Stone Mountain, GA,6,900,Southern Baptist Convention,33.808092,-84.170627
-478,VOUS Church,Miami, FL,3,500,Non-denominational,25.764993375,-80.1852740625
-479,Vineyard Church North Phoenix,Glendale, AZ,4,500,Association of Vineyard Churches,33.538686,-112.185994
-480,Wallace Memorial Baptist Church[28],Knoxville, TN,2,100[29],Southern Baptist Convention,35.960395,-83.921026
-481,Watermark Community Church,Dallas, TX,11,000,Non-denominational,32.776272,-96.796856
-482,The Well Community Church[171],Fresno, CA,4,000,Non-denominational,36.739442,-119.784831
-483,Watermark Wesleyan[172],Hamburg, NY,2,250,Wesleyan Church,42.716293,-78.828717
-484,West Angeles Cathedral,Los Angeles, CA,24,000[173],Church of God in Christ,34.053691,-118.242766
-485,WestGate Church[174],San Jose, CA,2,100,,37.336191,-121.890583
-486,West Side Christian Church[175],Springfield, IL,3,500,Non-denominational,39.799018,-89.643958
-487,Wheaton Bible Church,West Chicago, IL,3,000,Non-denominational,41.884751,-88.203961
-488,White's Chapel United Methodist Church,N/A, TX,5,000,United Methodist Church,46.434484,6.909872
-489,Whittier Area Community Church,Whittier, CA,3,000,Non-denominational,33.970878,-118.03084
-490,Willow Creek Community Church,South Barrington, IL,18,000[176],Non-denominational,42.087726,-88.150813
-491,Windsor Village United Methodist Church,Houston, TX,2,600[177],United Methodist Church,29.758938,-95.367697
-492,Wooddale Church[178],Eden Prairie, MN,5,000,Converge (Baptist denomination),44.854686,-93.470786
-493,Woodlands Church,The Woodlands, TX,18,400,Southern Baptist Convention,30.173419,-95.504686
-494,The Woodlands Methodist Church[179],The Woodlands, TX,2,900[42],United Methodist Church,30.173419,-95.504686
-495,Woodside Bible Church[180],Troy, MI,10,500,Baptist heritage,42.605589,-83.14993
-496,Word of Life Church,St. Joseph, MO,4,000,Nondenominational Christianity,39.768606,-94.846632
-497,Word of Faith Family Worship Cathedral,Austell, GA,8,300,Non-denominational,33.812606,-84.634378
-498,World Changers Church Int.,College Park, GA,14,000,Pentecostal, Word of Faith,33.653443,-84.449373
-499,World Overcomers Christian Church,Durham, NC,15,000,Non-denominational,35.996653,-78.901805
-500,World Harvest Church,Columbus, OH,13,000,Pentecostal,39.96226,-83.000707
-501,World Outreach Church,Murfreesboro, TN,15,000[181],Non-denominational,35.84604,-86.39211
-502,Xenos Christian Fellowship,Columbus, OH,6,000,Non-denominational,39.96226,-83.000707
-503,Young Nak Presbyterian Church[182],Los Angeles, CA,6,000,KPCA,34.053691,-118.242766
-504,Yuong Sang Presbyterian Church,Horsham, PA,5,000,KAPC,40.178442,-75.128506
+name,addr,city,state,attend,denom,lat,lon
+Abundant Life Baptist Church,Lees Summit, MO,4,500,Southern Baptist Convention,38.910716,-94.38213
+Abundant Life Christian Fellowship[7],Mountain View, CA,4,500,Church of God (Anderson, Indiana),37.389389,-122.08321
+Abundant Life Christian Center[8],La Marque, TX,3,000,Nondenominational / Evangelical Christian,29.368567,-94.971313
+Abundant Life Church,Denham Springs, LA,2,000,Non-denominational,30.486856,-90.956213
+Abundant Living Faith Center,El Paso, TX,12,400,Non-denominational,31.775415,-106.464634
+Acts Full Gospel Church,Oakland, CA,6,000,Church of God in Christ,37.804456,-122.271356
+Ada Bible Church,Ada, MI,10,000,Non-denominational,42.959373,-85.496158
+All Saints Episcopal Church,Pasadena, CA,2,300,Episcopal Church (United States),39.459118,-6.379508
+All Souls Unitarian Church,Tulsa, OK,2,167,Unitarian Universalist Association,36.155681,-95.992911
+Angelus Temple,Los Angeles, CA,8,300,Foursquare Church,34.053691,-118.242766
+Antioch Community Church,Waco, TX,4-5,000,Non-denominational,31.549333,-97.14667
+Antioch Missionary Baptist Church,Miami Gardens, FL,7,000,Baptist,25.946705,-80.149024
+Apostolic Church of God,Chicago, IL,6,500,Pentecostal Assemblies of the World,41.875562,-87.624421
+Apostolic Faith Church,Chicago, IL,2,000,Pentecostal Assemblies of the World,41.875562,-87.624421
+Bay Area Christian Church[9],Palo Alto, CA,3,600,Christian churches and churches of Christ,37.444329,-122.159847
+Bayside Community Church,Bradenton, FL,12,000,Non-denominational,27.498928,-82.574819
+Bayou City Fellowship,Houston, TX,3,000,Southern Baptist Convention,29.758938,-95.367697
+Beaverton Foursquare Church,Beaverton, OR,5,600,Foursquare Church,45.487172,-122.80378
+Bellevue Baptist Church[10],Memphis, TN,7,138,Southern Baptist Convention,35.149022,-90.051629
+Bell shoals baptist church[11],Brandon, FL,3,000,Southern Baptist Convention,27.937801,-82.285925
+Beltway Park Baptist Church[12][13],Abilene, TX,2,700,Non-denominational,32.44645,-99.747591
+Bethany Baptist Church,Lindenwold, NJ,6,000,Non-denominational,39.812002,-75.005563
+Bethany First Church of the Nazarene[14][15],Bethany, OK,2,200,Church of the Nazarene,35.518673,-97.632265
+Bethany Church,Baton Rouge, LA,8,000,Non-denominational,30.44596,-91.18738
+Bethel Baptist Institutional Church,Jacksonville, FL,8,000,Baptist,30.332184,-81.655651
+Bethel Church[16],Redding, CA,8,700,Non-denominational,40.586356,-122.391675
+Bethel Church of San Jose[17],San Jose, CA,2,200,Assemblies of God,37.336191,-121.890583
+Bethel Korean Presbyterian Church,Ellicott City, MD,2,000,Independent Presbyterian,39.267328,-76.798307
+Bethlehem Baptist Church,Minneapolis, MN,4,600,Converge (Baptist denomination),44.9773,-93.265469
+Biltmore Church[18],Arden, NC,6,000,Southern Baptist Convention,35.466182,-82.516424
+Beulah Missionary Baptist Church,Atlanta, GA,5,000,Southern Baptist Convention,33.748992,-84.390264
+Bible Way Church of Atlas Road,Columbia, SC,7,000,,34.000749,-81.034331
+Big Valley Grace Community Church[20],Modesto, CA,4,000,Non-denominational,37.639097,-120.996878
+Black Rock Church,Fairfield, CT,2,500,Non-denominational,41.141208,-73.263726
+Brand New Church,Harrison, AR,3,000,Southern Baptist Convention,36.229794,-93.107677
+Brentwood Baptist Church,Brentwood, TN,6,000,Southern Baptist Convention,36.032569,-86.782524
+Briarwood Presbyterian Church,Birmingham, AL,4,100,Presbyterian Church in America,33.520682,-86.802433
+Bridgeway Community Church,Columbia, MD,4,000,Non-denominational,39.215621,-76.858205
+Broadmoor Baptist Church,Madison, MS,3,000,Southern Baptist Convention,32.461809,-90.115364
+Brookland Baptist Church,West Columbia, SC,8,100,,33.993487,-81.073983
+Brooklyn Tabernacle,New York, NY,8,000,Non-denominational,40.750183,-73.983759
+Brookwood Church[21],Simpsonville, SC,5,500,Southern Baptist Convention,34.737064,-82.254283
+Calvary Baptist Church,Winston-Salem, NC,6,000,Southern Baptist Convention,36.099813,-80.244052
+Calvary Chapel Aurora,Aurora, CO,3,500,Calvary Chapel,39.740511,-104.830995
+Calvary Chapel Chino Valley,Chino, CA,8,500,Calvary Chapel,34.013356,-117.690075
+Calvary Chapel Costa Mesa[22],Costa Mesa, CA,9,500,Calvary Chapel,33.663339,-117.903317
+Calvary Chapel Downey,Downey, CA,7,000,Calvary Chapel,33.942215,-118.123565
+Calvary Chapel Fort Lauderdale,Fort Lauderdale, FL,18,500,Calvary Chapel,26.122308,-80.143379
+Calvary Chapel Golden Springs,Diamond Bar, CA,12,000,Calvary Chapel,34.028623,-117.810337
+Calvary Chapel Melbourne,West Melbourne, FL,10,000,Calvary Chapel,28.042227,-80.664094
+Calvary Chapel of Philadelphia,Philadelphia, PA,14,000,Calvary Chapel,39.952724,-75.163526
+Calvary Chapel South Bay,Gardena, CA,9,000,Calvary Chapel,33.896359,-118.305304
+Calvary Chapel,Tucson, AZ,8,000,Calvary Chapel,32.222877,-110.974848
+Calvary Church[23],Charlotte, NC,5,000,,35.227209,-80.843083
+Calvary Church,St. Charles, MO,2,400[24],,38.794625,-90.519829
+Calvary of Albuquerque,Albuquerque, NM,16,800,Calvary Chapel,35.084103,-106.650985
+Calvary Community Church,Phoenix, AZ,11,400,Calvary Chapel,33.448437,-112.074142
+Calvary Revival Church,Norfolk, VA,7,000,,36.896805,-76.260234
+Calvary Orlando,N/A, FL,2,200,Assemblies of God,28.85703,-82.27593
+Campus Church,Pensacola, FL,7,000,,30.421309,-87.216915
+Canyon Ridge Christian Church,Las Vegas, NV,6,000,Christian churches and churches of Christ,36.167256,-115.148516
+Cathedral Church of the Advent[26],Birmingham, AL,3,600,Episcopal Church (United States),33.520682,-86.802433
+Cathedral of Faith[27],San Jose, CA,7,800,Non-denominational,37.336191,-121.890583
+Cathedral of Hope,Dallas, TX,4,800,United Church of Christ,32.776272,-96.796856
+Cedar Creek Church,Aiken, SC,7,700,Southern Baptist Convention,33.559859,-81.721952
+CedarCreek.tv,Perrysburg, OH,7,800,Non-denominational,41.557118,-83.627932
+Cedar Springs Presbyterian Church[28],Knoxville, TN,3,700 (2010)[29],Evangelical Presbyterian Church,35.960395,-83.921026
+Celebrate Community Church,Sioux Falls, SD,4,100,Wesleyan Church,43.546059,-96.731393
+Celebration Church[30],Georgetown, TX,5,000,Non-denominational,30.632694,-97.677231
+Celebration Church,Jacksonville, FL,11,100,Non-denominational,30.332184,-81.655651
+Celebration Church,New Orleans, LA,7,147,Interdenominational,29.949932,-90.070116
+Centerpoint Church,Murrieta, CA,2,700,Free Methodist Church,33.560832,-117.210656
+Central Baptist Church of Bearden[28],Knoxville, TN,4,200[29],Southern Baptist Convention,35.960395,-83.921026
+Central Baptist Church,Jonesboro, AR,3,500,Southern Baptist Convention,35.842865,-90.703452
+Central Christian Church of Arizona,Mesa, AZ,8,800,Non-denominational,33.415112,-111.831479
+Central Christian Church,Henderson, NV,21,100,Christian churches and churches of Christ,36.030113,-114.982619
+Central Church of God,Charlotte, NC,8,000,Church of God,35.227209,-80.843083
+Central Wesleyan Church,Holland, MI,4,200,Wesleyan Church,42.787602,-86.109083
+Champion Forest Baptist Church[31],Houston, TX,8,000,Southern Baptist Convention,29.758938,-95.367697
+Champions Centre,Tacoma, WA,6,500,Non-denominational, Word of Faith,47.24958,-122.439875
+ChangePoint[32],Anchorage, AK,2,500,Non-denominational,61.216313,-149.894852
+The Chapel,Fort Wayne, IN,5,000,,41.07999,-85.138602
+The Chapel,Akron, OH,7,000,Non-denominational,41.083064,-81.518485
+Cherry Hills Community Church[33],Highlands Ranch, CO,6,000,Evangelical Presbyterian Church,39.549724,-104.969566
+Chestnut Ridge Church[34],Morgantown, WV,2,400,Evangelical,39.629681,-79.955944
+Chet's Creek Church[35],Jacksonville, FL,2,500,Southern Baptist Convention,30.332184,-81.655651
+Christ the King Community Church[36],Bellingham, WA,3,000,Non-denominational,48.754401,-122.478836
+Christ Life Center[37],Miami, FL,4,000,Reformed Church in America,25.764993375,-80.1852740625
+Christ Church of Oak Brook,Oak Brook, IL,5,000,Non-denominational,41.832809,-87.92895
+Christ Church,Plano, TX,4,500,Anglican Church in North America,33.013676,-96.69251
+Christ Fellowship,Palm Beach Gardens, FL,27,000,Evangelical,26.823395,-80.138655
+Christ's Church,Jacksonville, FL,4,200,Christian churches and churches of Christ,30.332184,-81.655651
+Christ's Church of the Valley,Peoria, AZ,35,000[38],Non-denominational,33.580612,-112.237294
+Christ Covenant Presbyterian Church[39],Matthews, NC,2,400,Presbyterian Church in America,35.115953,-80.722439
+Christ United Methodist Church,Memphis, TN,6,900,United Methodist Church,35.149022,-90.051629
+Christian Cultural Center,New York, NY,32,000[40],Non-denominational,40.750183,-73.983759
+Christian Faith Center,Federal Way, WA,5,900,Non-denominational, Pentecostal,47.313494,-122.33931
+Christian Faith Fellowship Church,Milwaukee, WI,6,000,Church of God in Christ,43.034993,-87.922497
+Christian Fellowship Church[41],Evansville, IN,2,800,Non-denominational,37.974765,-87.555848
+Christ Community Church,St. Charles, IL,4,000,Non-denominational,41.913981,-88.312818
+Christ Community Church,Zion, IL,3,000,Nondenominational / Evangelical,42.446132,-87.832851
+Christ United Methodist Church,Chattanooga, TN,4,100,United Methodist Church,35.045722,-85.309488
+Christ United Methodist Church,Plano, TX,6,200,United Methodist Church,33.013676,-96.69251
+The Church at Brook Hills,Birmingham, AL,4,100,Southern Baptist Convention,33.520682,-86.802433
+The Church at Rock Creek,Little Rock, AR,4,500,Southern Baptist Convention,34.746481,-92.289595
+Church by the Glades,Coral Springs, FL,7,700,Southern Baptist Convention,26.271192,-80.270604
+Church of Eleven22,Jacksonville, FL,12,000,Non-denominational,30.332184,-81.655651
+Church of the Apostles,Atlanta, GA,3,000,Evangelical Non-Denominational,33.748992,-84.390264
+Church of the Highlands,Birmingham, AL,52,000,Non-denominational,33.520682,-86.802433
+Church of the Redeemed of the Lord,Baltimore, MD,7,500,,39.290882,-76.610759
+Church of the Redeemer,Gaithersburg, MD,6,800,Non-denominational,39.139919,-77.192922
+Church of the Resurrection,Leawood, KS,3,312[42],United Methodist Church,38.966673,-94.616901
+Church of the Servant,Oklahoma City, OK,7,500,United Methodist Church,35.472989,-97.517054
+Church on the Hill,Cedar Hill, TX,2,000,Non-denominational,32.588807,-96.955368
+Church on the Move,Tulsa, OK,11,000,,36.155681,-95.992911
+Church on the Rock,St. Peters, MO,5,000[43][44],Non-denominational,38.791612,-90.595847
+The Church on the Way,Van Nuys, CA,5,000,Foursquare Church,34.186619,-118.448668
+Church Unlimited,Corpus Christi, TX,12,000,Non-Denominational,27.795148,-97.394205
+The Church Without Walls,Houston, TX,6,400,,29.758938,-95.367697
+Churchome,Kirkland, WA,7,200,,47.685957,-122.192025
+Mannahouse Church,Portland, OR,7,000,Non-denominational,45.520247,-122.674195
+City of Refuge,Gardena, CA,10,000,Pentecostal Assemblies of the World,33.896359,-118.305304
+Clear Creek Community Church,League City, TX,4,800,Non-denominational,29.507454,-95.09493
+Cokesbury United Methodist Church[28],Knoxville, TN,4,500,United Methodist Church,35.960395,-83.921026
+Colonial Heights Baptist Church,Colonial Heights, VA,5,200,Southern Baptist Convention,37.255572,-77.411202
+Columbia Community Church (C3),Richland, WA,2,500,Church of God (Anderson, Indiana),46.28043,-119.275206
+Community Bible Church[47],San Antonio, TX,14,000,Non-denominational,29.4246,-98.495141
+Community Christian Church[50],Naperville, IL,5,400,Non-denominational,41.77287,-88.147928
+Community of Faith,Houston, TX,6,000,,29.758938,-95.367697
+Compassion Christian Church,Savannah, GA,8,500,Christian,32.080926,-81.091177
+Connection Pointe Christian Church of Brownsburg,Brownsburg, IN,4,000,Non-denominational,39.843377,-86.397774
+Compass Christian Church,Chandler, AZ,3,400,Non-denominational,33.306161,-111.84125
+The Compass Church[52],Naperville, IL,3,000,Evangelical Free Church of America,41.77287,-88.147928
+Concordia Lutheran Church[53],San Antonio, TX,3289,Lutheran Church–Missouri Synod,29.4246,-98.495141
+Coral Ridge Presbyterian Church[37],Fort Lauderdale, FL,2,000,Presbyterian Church in America,26.122308,-80.143379
+Cornerstone Church of Ames[54],Ames, IA,2,000,Evangelical,42.026757,-93.617045
+Cornerstone Church,San Antonio, TX,8,400,Non-denominational charismatic,29.4246,-98.495141
+Cornerstone Church of San Diego[55],National City, CA,6,300,non-denominational charismatic,32.678109,-117.099197
+Cornerstone Church[56],Toledo, OH,4,000,Non-denominational,41.652914,-83.537817
+Cornwall Church[57],Bellingham, WA,2,500,Church of God (Anderson, Indiana),48.754401,-122.478836
+The Cove Church[58],Mooresville, NC,5,000,Non-denominational,35.58486,-80.810072
+Covenant Church,Carrollton, TX,8,000,,32.953735,-96.890282
+Covenant Fellowship Church,Glen Mills, PA,4,000,Sovereign Grace Churches,39.919698,-75.490432
+Creekside Christian Church,Elk Grove, CA,2,400,Non-denominational,38.408799,-121.371618
+Cross Church,Springdale, AR,16,000,Southern Baptist Convention,36.186744,-94.128814
+CrossCity Christian Church[59],Fresno, CA,3,500,Non-denominational,36.739442,-119.784831
+The Crossing, A Christian church,Las Vegas, NV,5,000,Christian churches and churches of Christ,36.167256,-115.148516
+The Crossing Church,Quincy, IL,7,000 [60],Non-denominational,39.935602,-91.409873
+The Crossing,Chesterfield, MO,6,000[61],Non-denominational,55.752496,37.58938
+The Crossing,N/A, MO,3,000[62],Evangelical Presbyterian Church,59.9266825431611,15.8142380195549
+Crossings Community Church,Oklahoma City, OK,10,000,Church of God (Anderson, Indiana),35.472989,-97.517054
+Crossroads Church – Cincinnati[63],Cincinnati, OH,38,000,Interdenominational,39.101454,-84.51246
+Crossroads Church – Minnesota[64],Woodbury, MN,3,000,Evangelical Covenant Church (ECC),44.919896,-92.933945
+Crossroads Christian Church[65],Corona, CA,8,400,Non-denominational,-25.460371,-55.990196
+Crossroads Christian Church[66],N/A, TX,6,500,Non-denominational,46.434484,6.909872
+Crossroads Community Church,Vancouver, WA,6,000,Calvary Chapel,49.271743,-123.136595
+Crossway Baptist Church,N/A, MO,2,000,,59.9266825431611,15.8142380195549
+Cypress Church,Columbus, OH,3,900,Wesleyan Church,39.96226,-83.000707
+Deliverance Evangelistic Church,Philadelphia, PA,11,000,Non-denominational,39.952724,-75.163526
+Denton Bible Church[67],Denton, TX,3,000,Non-denominational,33.215039,-97.133052
+Destiny Worship Center,Destin, FL,5,500[69],Non Denominational,30.393534,-86.495783
+Downtown Church of Christ,Searcy, AR,2,000,Church of Christ,35.250641,-91.736249
+Dream City Church[70],Phoenix, AZ,21,000,Assemblies of God,33.448437,-112.074142
+Eagle Brook Church,Lino Lakes, MN,25,340[71],Converge (Baptist denomination),45.160244,-93.088832
+Eastern Star Baptist Church,Indianapolis, IN,10,000,,39.768333,-86.15835
+Eastside Christian Church,Anaheim, CA,7,000,Christian churches and churches of Christ,33.834752,-117.911732
+Eastview Christian Church,Normal, IL,7,000,Non-denominational,40.509287,-88.98438
+Ebenezer AME Church,Fort Washington, MD,10,000,African Methodist Episcopal Church,38.712531,-77.01246
+ECHO.Church,N/A, CA,3,400,Non-denominational,42.73324,-106.3299
+El Rey Jesús (King Jesus International Ministry),Miami, FL,12,500,Non-denominational/Pentecostal,25.764993375,-80.1852740625
+Elevation Church,Charlotte, NC,26,000[72],Southern Baptist Convention,35.227209,-80.843083
+Elevate Life Church,Riverside, CA,2,000,Non-denominational,51.4791289,-3.1921926
+Elmbrook Church,Brookfield, WI,7,000,Non-denominational, Evangelical,43.060567,-88.106479
+Emmanuel Presbyterian Church,San Jose, CA,2,200,KAPC,37.336191,-121.890583
+Emmanuel Wesleyan Church,Salisbury, MD,2,500,Wesleyan Church,38.366027,-75.600996
+Emmanuel Church[73],Greenwood, IN,4,500,Non-demominational,39.613658,-86.106653
+Empowerment Temple,Baltimore, MD,10,000,African Methodist Episcopal Church,39.290882,-76.610759
+Enon Tabernacle Baptist Church,Philadelphia, PA,15,000,,39.952724,-75.163526
+EPIC Church International,Sayreville, NJ,10,100,Non-denominational,40.463536,-74.36185
+Evangel Cathedral,Mitchellville, MD,4,000,Non-denominational,38.900621,-76.79522
+Fairfax Community Church,Fairfax, VA,2,000,Church of God (Anderson, Indiana),38.846224,-77.306373
+Faith Bible Chapel,Arvada, CO,5,500,Non-denominational,39.800551,-105.081157
+Faith Chapel Christian Center[74],Birmingham, AL,6,400,Non-denominational,33.520682,-86.802433
+Faith Church[75],Dyer, IN,4,000,Reformed Church in America,41.494202,-87.521707
+Faith Church,St. Louis, MO, FL,8,000[76],Non-denominational, Word of Faith,38.627791,-90.406371
+Faith Landmarks Ministries,Richmond, VA,10,000,,37.538509,-77.43428
+Faith Life Church,Branson, MO, FL,2,500[77],Non-denominational, Word of Faith,36.634392,-93.268138
+Faith Promise Church,Knoxville, TN,9,000,Inter-denominational,35.960395,-83.921026
+Faithful Central Missionary Baptist Church,Inglewood, CA,7,300,,33.9562,-118.353132
+Falls Church Anglican,Falls Church, VA,4,300,Anglican Church in North America,38.882334,-77.171091
+Family Christian Center,Munster, IN,15,500,Non-denominational,41.56448,-87.512541
+Family Community Church[78],San Jose, CA,3,400,Assemblies of God,37.336191,-121.890583
+Fellowship Bible Church[79],Little Rock, AR,5,000,Non-denominational,34.746481,-92.289595
+Fellowship Bible Church,Brentwood, TN,6,000,Non-denominational,36.032569,-86.782524
+Fellowship Bible Church,Rogers, AR,8,000,,36.33202,-94.118537
+Fellowship Church,Grapevine, TX,24,162[10],Southern Baptist Convention,32.933738,-97.078875
+Fellowship Missionary Baptist Church[80],Chicago, IL,8,000,Baptist,41.875562,-87.624421
+First African Methodist Episcopal Church,Los Angeles, CA,10,000,African Methodist Episcopal Church,34.053691,-118.242766
+First Assembly of God,Fort Myers, FL,7,500,Assemblies of God,26.640628,-81.872308
+First Assembly of God,North Little Rock, AR,3,300,Assemblies of God,34.769536,-92.267094
+First Assembly of God,Griffin, GA,7,800,Assemblies of God,33.246781,-84.26409
+First Baptist Church,Bentonville, AR,2,200,Southern Baptist Convention,36.372854,-94.208817
+First Baptist Church,Jonesboro, AR,2,000,Southern Baptist Convention,35.842865,-90.703452
+First Baptist Church of Arnold,Arnold, MO,2,500,Southern Baptist Convention,38.422671,-90.375829
+First Baptist Church Atlanta,Atlanta, GA,5,000,Southern Baptist Convention,33.748992,-84.390264
+First Baptist Church Dallas[81],Dallas, TX,3,700 (2017 in-person)[82],Southern Baptist Convention,32.776272,-96.796856
+Houston's First Baptist Church[83],Houston, TX,6,500,Southern Baptist Convention,29.758938,-95.367697
+First Baptist Church of Glenarden,Upper Marlboro, MD,10,548,Converge (Baptist denomination),38.81398,-76.757589
+First Baptist Church of Hammond,Hammond, IN,17,700,Baptist,41.583366,-87.500043
+First Baptist Church of Jacksonville[84],Jacksonville, FL,5,000,Southern Baptist Convention,30.332184,-81.655651
+First Baptist Church Jonesboro,N/A, GA,2,000,Southern Baptist Convention,57.7114853633561,11.9920494122716
+First Baptist Church Orlando,Orlando, FL,16,000,Southern Baptist Convention,28.542111,-81.37903
+First Baptist Rogers,Rogers, AR,3,000,Southern Baptist Convention,36.33202,-94.118537
+First Baptist Church Woodstock[85],Woodstock, GA,9,000,Southern Baptist Convention,34.101411,-84.519219
+First Baptist Concord[28],Knoxville, TN,8,000[29],Southern Baptist Convention,35.960395,-83.921026
+First Church of Christ,Burlington, KY,2,500,Non-denominational,39.02756,-84.724113
+First Evangelical Free Church,Fullerton, CA,6,000,Evangelical Free Church of America,44.756165,-93.63574
+First Presbyterian Church[86],Chattanooga, TN,2,500,Presbyterian Church in America,35.045722,-85.309488
+First Presbyterian Church,Jackson, MS,3,100,Presbyterian Church in America,32.299002,-90.184769
+First Presbyterian Church of Houston[87],Houston, TX,3,600,ECO,29.758938,-95.367697
+Flamingo Road Baptist,Cooper City, FL,8,500,Southern Baptist Convention,26.057783,-80.269511
+Flatirons Community Church,Lafayette, CO,19,000,Non-denominational evangelical,39.993596,-105.089706
+Florence County Baptist Church,Florence, SC,2,000,Southern Baptist Convention,34.198444,-79.767166
+Forest Hill Church,Charlotte, NC,5,000,Non-denominational evangelical,35.227209,-80.843083
+Foundations Church,Loveland, CO,3,800,Non-denominational evangelical,40.397761,-105.07498
+Fountain of Praise,Houston, TX,11,800,,29.758938,-95.367697
+Fountain Springs Wesleyan Church,Rapid City, SD,2,700,Wesleyan Church,44.086933,-103.227448
+Frazer United Methodist Church[88],Montgomery, AL,2,100[42],United Methodist Church,32.366966,-86.300649
+Free Chapel,Gainesville, GA,25,000[89],Church of God,34.297879,-83.824066
+Free Life Chapel[91],Lakeland, FL,2,000,Non-denominational,28.039465,-81.949804
+Friends Church,Yorba Linda, CA,4,000,Quaker/Evangelical Friends International,33.89011,-117.824971
+Friendship West Baptist Church,Dallas, TX,8,000,,32.776272,-96.796856
+From the Heart Church Ministries,Temple Hills, MD,5,000,,38.814002,-76.94553
+Gateway Church,Southlake, TX,100,000[92],Non-denominational Charismatic,32.941236,-97.134178
+Generations Christian Church,Trinity, FL,2,500,Non-denominational,28.180164,-82.654212
+Germantown Baptist Church[93],Germantown, TN,12,000,Baptist,35.086758,-89.810086
+Geyer Springs First Baptist Church,Little Rock, AR,2,500,Southern Baptist Convention,34.746481,-92.289595
+Ginghamsburg Church,Tipp City, OH,5,000,United Methodist Church,39.958389,-84.172164
+Grace Baptist Church[28],Knoxville, TN,5,800,Southern Baptist Convention,35.960395,-83.921026
+Grace Bible Church,N/A, TX,4,000,Non-denominational,46.434484,6.909872
+Grace Church,Noblesville, IN,6,000,Evangelical Free Church of America,40.045592,-86.008596
+Grace Church,Eden Prairie, MN,5,000,Non-Denominational, Evangelical,44.854686,-93.470786
+Grace Church[94],Dumfries, VA,2,000[95],Non-Denominational,38.56762,-77.328038
+Grace Church,Maryland Heights, MO,3,800[2],Non-denominational,38.715051,-90.435999
+Grace Community Church,Sun Valley, CA,9,300,Non-denominational, Evangelical,34.217504,-118.370358
+Grace Family Church,Cheval, FL,6,200,Non-denominational,28.148625,-82.51454
+Granger Community Church,Granger, IN,5,500,United Methodist Church,41.753382,-86.110838
+Greater Allen A. M. E. Cathedral of New York[96],New York, NY,20,000,African Methodist Episcopal Church,40.750183,-73.983759
+Greater Grace Temple,Detroit, MI,5,000,Pentecostal Assemblies of the World,42.331551,-83.04664
+Greater Mount Calvary Holy Church[97],Washington, DC,7,000,Pentecostal,38.895037,-77.036543
+Greater St. Stephen Full Gospel Baptist,New Orleans, LA,10,000,Full Gospel Baptist Church Fellowship,29.949932,-90.070116
+Green Acres Baptist Church,Tyler, TX,14,000,Southern Baptist Convention,32.35126,-95.301062
+Grove City Church of the Nazarene[98],Grove City, OH,2,700,Church of the Nazarene,39.881452,-83.092965
+Hales Corners Lutheran Church[99],Hales Corners, WI,8,600,Lutheran Church–Missouri Synod,42.937515,-88.048698
+Harvest Bible Chapel,Rolling Meadows, IL,6,000,Non-denominational,42.084194,-88.013128
+Harvest Christian Fellowship,Riverside, CA,15,000,Southern Baptist Convention,51.4791289,-3.1921926
+Harvester Christian Church,N/A, MO,2,400[100],Non-denominational,59.9266825431611,15.8142380195549
+Harvest Time,Fort Smith, AR,2,200,Non-denominational,35.387222,-94.424898
+Healing Place Church,Baton Rouge, LA,12,000,Non-denominational,30.44596,-91.18738
+Heartland Community Church,Rockford, IL,7,300,,42.271395,-89.093966
+Heritage Church,Rock Island, IL,2,600,Wesleyan Church,41.509477,-90.578748
+Hickory Grove Baptist Church,Charlotte, NC,11,900,Southern Baptist Convention,35.227209,-80.843083
+High Desert Church,Victorville, CA,6,300,,34.536107,-117.291157
+Higher Dimension Baptist Church,Houston, TX,,Southern Baptist Convention,29.758938,-95.367697
+Highland Park United Methodist Church,Highland Park, TX,2,900[42],United Methodist Church,29.393423,-98.461665
+Highlands Fellowship,Abingdon, VA,4,000,Southern Baptist Convention[101],36.709463,-81.983601
+Highlands Park,Lakeland, FL,2,300,Church of the Nazarene,28.039465,-81.949804
+Highpoint Church,Naperville, IL,3,500,Non-Denominational,41.77287,-88.147928
+Highview Baptist Church[102],Louisville, KY,4,000,Southern Baptist Convention,38.254238,-85.759407
+Hillside Christian Church,Amarillo, TX,7,000,,35.207219,-101.833825
+Hillsong NYC,New York, NY,5,000,Hillsong Church,40.750183,-73.983759
+Hope Church,Las Vegas, NV,2,000,Southern Baptist Convention,36.167256,-115.148516
+Hope City Church,Houston, TX,12,000,Non-denominational,29.758938,-95.367697
+Hope Community Church,Raleigh, NC,15,000,Non-denominational,35.780398,-78.639099
+Hope Presbyterian Church,Cordova, TN,7,043,Evangelical Presbyterian Church,35.155645,-89.776196
+Hopewell Missionary Baptist,Norcross, GA,16,000,Baptist,33.941213,-84.213531
+Horizon Christian Fellowship,San Diego, CA,6,000,Calvary Chapel,32.71742,-117.162773
+Hosanna!,Lakeville, MN,6,000,Lutheran Congregation in Mission for Christ,44.650051,-93.243279
+Hunter Street Baptist Church[103],Hoover, AL,8,200,Southern Baptist Convention,33.384893,-86.807048
+Iglesia Cristiana Segadores de Vida,Hollywood, FL,7,100,Non-denominational,26.011201,-80.14949
+Independent Presbyterian Church,Memphis, TN,2,300,Presbyterian Church in America,35.149022,-90.051629
+Inland Church,Pomona, CA,2,000,Presbyterian Church in America,34.055381,-117.75175
+Inspiring Body of Christ Church,Dallas, TX,7,500,Non-denominational,32.776272,-96.796856
+Israel Baptist Church of Baltimore City,Baltimore, MD,3,000,Baptist,39.290882,-76.610759
+James River Church,Springfield, MO,17,000,Assemblies of God,37.216678,-93.292037
+Joy Church,Mount Juliet, TN,3,000,Non-denominational,36.200055,-86.518605
+The Journey,St. Louis, MO,2,500[104][105],Southern Baptist (Acts 29 Network),38.626426,-90.199585
+Redemption Church[106],San Jose, CA,14,000,,37.336191,-121.890583
+Jubilee Christian Church,Boston, MA,7,000,Church of God (Anderson, Indiana),42.360253,-71.058291
+Kensington Church,Troy, MI,15,000,Non-denominational,42.605589,-83.14993
+Kentwood Community Church,Kentwood, MI,2,000,Wesleyan Church,42.869473,-85.644749
+King's Cathedral and Chapels,Kahului, HI,30,000,Assemblies of God,20.88941,-156.472712
+Kingsway Christian Church[109],Avon, IN,2,700,Non-denominational,39.762823,-86.399717
+Korean Central Presbyterian Church[110],Centreville, VA,4,500,Presbyterian Church in America,38.840391,-77.428877
+La Casa de Cristo Lutheran Church[111],Phoenix, AZ,2,000,Lutheran,33.448437,-112.074142
+Lake Pointe Church,Rockwall, TX,11,300,Southern Baptist Convention,32.931234,-96.459709
+Lakes Church[112],Lakeland, FL,9,000,Southern Baptist Convention,28.039465,-81.949804
+Lakewood Church,Houston, TX,45,000[113],Non-denominational,29.758938,-95.367697
+Lancaster Baptist Church,N/A, CA,5,000,Unaffiliated Baptist,42.73324,-106.3299
+Legacy Church,Albuquerque, NM,10,100,Non-denominational,35.084103,-106.650985
+Lenexa Baptist Church,N/A, KS,2,600[104],Southern Baptist,37.434435,-95.6745975
+LibertyLive.church,Hampton, VA,10,000,Southern Baptist Convention,37.030097,-76.345206
+Life Center Ministries,New Orleans, LA,6,500,Non-denominational,29.949932,-90.070116
+Life Center Foursquare,Spokane, WA,5,000,Foursquare Church,47.657193,-117.423511
+Lighthouse Church,Glen Burnie, MD,6,000,Non-denominational,39.16263,-76.625076
+Lincoln Berean Church,Lincoln, NE,4,000,,40.808886,-96.707775
+LCBC,Manheim, PA,17,000,Non-denominational,40.163736,-76.395243
+Life.Church,Edmond, OK,72,500[114],Evangelical Covenant Church (ECC),35.657137,-97.464904
+Liquid Church,Mountainside, NJ,5,000[115],Non-denominational,40.672324,-74.357372
+Little Country Church,Redding, CA,3,800,Calvary Chapel,40.586356,-122.391675
+The Living Word Bible Church,Mesa, AZ,7,500,,33.415112,-111.831479
+Living Word Christian Center,Brooklyn Park, MN,6,700,,45.100481,-93.344359
+Living Word Christian Center,Chicago, IL,18,000,Non-denominational,41.875562,-87.624421
+Living Word Fellowship Church,Houston, TX,2,000,Non-denominational,29.758938,-95.367697
+Loma Linda University Church[116],Loma Linda, CA,7,000,Seventh-day Adventist,34.053797,-117.261093
+Long Hollow Church,Hendersonville, TN,5,000,Southern Baptist Convention,36.304918,-86.621443
+Lutheran Church of Hope,West Des Moines, IA,10,600,Evangelical Lutheran Church in America,41.564534,-93.759528
+Mariners Church,Irvine, CA,13,600,Non-denominational Evangelical,33.685697,-117.825982
+Maranatha Chapel,San Diego, CA,7,000,Calvary Chapel,32.71742,-117.162773
+Mars Hill Bible Church,Grandville, MI,10,000,Non-denominational,42.909598,-85.763096
+McLean Bible Church,McLean, VA,16,500,Non-denominational[117],38.934289,-77.177633
+Mecklenburg Community Church,Charlotte, NC,6,000,Non-denominational,35.227209,-80.843083
+Menlo Church,San Francisco Bay Area, CA,5,000,ECO - A Covenant Order of Evangelical Presbyterians,37.8082,-122.476066
+Metropolitan Baptist Church,Washington, DC,6,000,National Baptist,38.895037,-77.036543
+Mission Community Church,Gilbert, AZ,3,000[119],Non-denominational,33.352763,-111.789037
+Mission Hills Church,Littleton, CO,3,000,Non-denominational,39.613321,-105.01665
+Moody Church[120],Chicago, IL,6,000,Evangelical,41.875562,-87.624421
+MOSAIC,Los Angeles, CA,7,500,Non-denominational,34.053691,-118.242766
+Mt. Airy Church of God in Christ,Philadelphia, PA,5,000,Church of God in Christ,39.952724,-75.163526
+Mount Ararat Church,Stafford, VA,3,500,Southern Baptist Convention,38.422268,-77.408407
+Mount Olivet Lutheran Church,Minneapolis, MN,5,900,Evangelical Lutheran Church in America,44.9773,-93.265469
+Mount Zion Baptist Church,Nashville, TN,13,000,Baptist,36.162277,-86.774298
+Mount Ennon Baptist Church,Clinton, MD,8,000,National Baptist,38.765115,-76.898306
+Mount Paran Church of God,Atlanta, GA,7,900,Church of God,33.748992,-84.390264
+Neighborhood Church,Visalia, CA,2,000,Non-denominational,36.330228,-119.292059
+Neighborhood Church of Redding[121],Redding, CA,2,500,Christian and Missionary Alliance,40.586356,-122.391675
+New Birth Missionary Baptist Church,Lithonia, GA,12,000,Full Gospel Baptist Church Fellowship,33.712331,-84.105194
+New Beginnings Baptist Church,Longview, TX,2,700,Southern Baptist Convention,32.500703,-94.74049
+New Hope Christian Fellowship,Honolulu, HI,14,500,Foursquare Church,21.304547,-157.855676
+Newhope Church,Durham, NC,7,000,Wesleyan Church,35.996653,-78.901805
+New Life Church,Bakersfield, CA,6,500,Foursquare Church,35.373871,-119.019464
+New Life Church,Colorado Springs, CO,8,000,Non-denominational Charismatic Evangelical,38.833958,-104.825349
+New Life Church,Conway, AR,18,000[122],Non-denominational(ARC),35.088696,-92.442101
+New Life Church[123],N/A, NE,2,500,Assemblies of God,50.1048941,14.39604715
+New Life Covenant Church,Chicago, IL,20,000,Non-denominational,41.875562,-87.624421
+New Life Wesleyan Church,La Plata, MD,4,000,Wesleyan Church,38.526031,-76.976657
+New Light Christian Center Church,Houston, TX,20,000,Non-denominational,29.758938,-95.367697
+Newport Church,Newport Beach, CA,5,000,Non-denominational,33.617009,-117.92944
+New Psalmist Baptist Church,Baltimore, MD,7,000,Non-denominational,39.290882,-76.610759
+NewSpring Church,Anderson, SC,20,500[124][125],Southern Baptist Convention,34.50686,-82.650626
+New Venture Christian Fellowship,Oceanside, CA,5,600,Non-denominational,33.19587,-117.379483
+New Vision Baptist Church,Murfreesboro, TN,3,300,Southern Baptist Convention,35.84604,-86.39211
+New Walk Church[126],Zephyrhills, FL,3,000,General Baptist Ministries,28.23362,-82.181195
+North Coast Calvary Chapel,Carlsbad, CA,6,000,Calvary Chapel,33.158093,-117.350597
+North Coast Church[127],Vista, CA,10,000,Evangelical Free Church of America,33.200037,-117.242536
+North Heights Lutheran Church,Roseville, MN,6,000,Alliance of Renewal Churches,45.006077,-93.156611
+North Point Church,Springfield, MO,3,000,Assemblies of God,37.216678,-93.292037
+North Point Community Church,Alpharetta, GA,30,000[128],Non-denominational,34.070958,-84.274733
+NorthPointe Community Church[129],Fresno, CA,2,500,Southern Baptist Convention,36.739442,-119.784831
+North Valley Baptist Church[130],Santa Clara, CA,3,000,Independent Baptist,39.471529,-6.372104
+Northland, A Church Distributed,Longwood, FL,2,000,Non-denominational,28.70085,-81.346558
+NorthRidge Church,Plymouth, MI,2,700,Baptist heritage,45.006515,-93.46651
+Northridge Church,Rochester, NY,2,300,Baptist heritage,43.157285,-77.615214
+Northside Baptist Church,Charlotte, NC,2,000,Independent Baptist,35.227209,-80.843083
+Northside Christian Church,New Albany, IN,5,300,Christian churches and churches of Christ,38.285625,-85.824131
+Northside Christian Church,Spring, TX,2,000,Christian churches and churches of Christ,30.079883,-95.417255
+Oak Hills Church,San Antonio, TX,9,500,Non-denominational,29.4246,-98.495141
+Olive Baptist Church,Pensacola, FL,4,000,Southern Baptist Convention,30.421309,-87.216915
+Onnuri Church of Los Angeles,Lake View Terrace, CA,4,500,Christian Reformed Church in North America,34.295365,-118.346245
+Opendoor Presbyterian Church of Los Angeles,Los Angeles, CA,3,000,Presbyterian (WKPC),34.053691,-118.242766
+Open Door Presbyterian Church,Herndon, VA,2,000,Presbyterian,38.969532,-77.385948
+One Community Church,Plano, TX,10,000,Non-denominational,33.013676,-96.69251
+Overcoming Believers Church,Knoxville, TN,2,500,Non-denominational,35.960395,-83.921026
+Overlake Christian Church,Redmond, WA,3,000,Non-denominational,47.669414,-122.123877
+Park Street Church[131],Boston, MA,2,000,Conservative Congregational Christian Conference,42.360253,-71.058291
+Park Cities Presbyterian Church,Dallas, TX,5,500,Presbyterian Church in America,32.776272,-96.796856
+Parkview Christian Church[132],Orland Park, IL,9,800,Non-denominational,41.630663,-87.853629
+Passion City Church,Atlanta, GA,5,000,Non-denominational,33.748992,-84.390264
+Pathway Church[133],Wichita, KS,3,000,Christian churches and churches of Christ,37.692236,-97.337545
+Perimeter Church[134],Johns Creek, GA,4,000,Presbyterian Church in America,34.018156,-84.190196
+Peachtree Presbyterian Church[135],Atlanta, GA,6,738,Presbyterian Church (USA),33.748992,-84.390264
+Pentecostals of Alexandria, The[136],Alexandria, LA,3,000,United Pentecostal Church,31.311248,-92.444909
+Peoples Church[137],Fresno, CA,4,000,Assemblies of God,36.739442,-119.784831
+Pilgrim Mission Church[138],Teaneck, NJ,2,000,ECO,40.886016,-74.007257
+Pleasant Valley Baptist Church,Liberty, MO,2,500,Southern Baptist Convention,55.753269,37.635091
+Pinelake Church[139],Flowood, MS,9,100,Southern Baptist Convention,32.309274,-90.138908
+Potential Church[140],Fort Lauderdale, FL,12,000,Southern Baptist Convention,26.122308,-80.143379
+The Potter's House,Dallas, TX,16,100,Non-denominational,32.776272,-96.796856
+Prestonwood Baptist Church,Plano, TX,15,800,Southern Baptist Convention,33.013676,-96.69251
+Purpose Church[141],N/A, CA,3,000,Transformation Ministries,42.73324,-106.3299
+Quest Community Church,Lexington, KY,10,000,Christian and Missionary Alliance,38.046407,-84.497039
+Real Life Ministries,Post Falls, ID,7,000,Non-denominational,47.711011,-116.948088
+Redeemer Presbyterian Church,New York, NY,5,000,Presbyterian Church in America,40.750183,-73.983759
+Relentless Church[142],Greenville, SC,14,000,International Pentecostal Holiness Church,34.851354,-82.398488
+Reid Temple A.M.E. Church,Glenn Dale, MD,7,600,African Methodist Episcopal Church,38.978116,-76.805063
+Resurrection Life Church,Grandville, MI,7,500,Non-denominational,42.909598,-85.763096
+Rhema Bible Church,Broken Arrow, OK,3,000,Non-denominational,36.052599,-95.79082
+Richmond Outreach Center,Richmond, VA,4,000,,37.538509,-77.43428
+River Church[143],Anaheim, CA,10,000,Assemblies of God,33.834752,-117.911732
+River Valley Church[144],Apple Valley, MN,9,500,Assemblies of God,44.731909,-93.21772
+River of Life Christian Church[145],Santa Clara, CA,3,000,Non-denominational,39.471529,-6.372104
+Riverside Baptist Church[146],Denver, CO,2,800,Southern Baptist Convention,39.739236,-104.984862
+The Rock Church & World Outreach Center[147],San Bernardino, CA,9,000,Non-denominational,34.108345,-117.289765
+Rock Church,San Diego, CA,12,900,Non-denominational,32.71742,-117.162773
+Rock City Church,Columbus, OH,5,500,Non-denominational,39.96226,-83.000707
+The Rock Family Worship Center,Huntsville, AL,4,500,Non-denominational,34.729847,-86.585901
+Rock Harbor Church[148],Costa Mesa, CA,5,000,Non-denominational evangelical,33.663339,-117.903317
+Rocky Mountain Calvary Chapel[149],Colorado Springs, CO,2,000,Calvary Chapel,38.833958,-104.825349
+Rolling Hills Christian Church,El Dorado Hills, CA,2,200,Non-denominational,38.656119,-121.074327
+Saddleback Church[10],Lake Forest, CA,22,100,Southern Baptist Convention,33.646926,-117.685921
+Sagebrush Church[150],Albuquerque, NM,20,000,Non-denominational,35.084103,-106.650985
+Sagemont Church,Houston, TX,17,700,Southern Baptist Convention,29.758938,-95.367697
+Pathfinder Church,St. Louis, MO,2,900[151],Lutheran Church–Missouri Synod,38.626426,-90.199585
+St. John Baptist Church,Grand Prairie, TX,8,200,Baptist,32.745965,-96.997785
+Saint Louis Family Church,Chesterfield, MO,6,000,Non-denominational,55.752496,37.58938
+Saint Mark Baptist Church,Little Rock, AR,8,000,Baptist,34.746481,-92.289595
+St. Mark's United Methodist,Lincoln, NE,2,000[152],United Methodist,40.808886,-96.707775
+St. Martin's Episcopal Church,Houston, TX,8,300[153],Episcopal Church (United States),29.758938,-95.367697
+St. Matthews Baptist Church,Williamstown, NJ,13,000,Baptist,39.686226,-74.995168
+St. Paul's Baptist Church,Richmond, VA,6,500,Southern Baptist Convention,37.538509,-77.43428
+St. Stephen Church,Louisville, KY,10,700,Baptist,38.254238,-85.759407
+Salem Baptist Church,Chicago, IL,10,100,Baptist,41.875562,-87.624421
+Salem Baptist Church (Apex),Apex, NC,3,000,Southern Baptist Convention,35.732535,-78.850552
+Sandals Church,Riverside, CA,15,000,Southern Baptist Convention,51.4791289,-3.1921926
+Sarang Community Church of Southern California,Anaheim, CA,11,000[154],Presbyterian Church in America,33.834752,-117.911732
+Scottsdale Bible Church,Scottsdale, AZ,7,723[155],Bible Church,33.494219,-111.926018
+Seacoast Church,Mount Pleasant, SC,9,200,Interdenominational,32.794065,-79.862585
+Second Baptist Church Houston,Houston, TX,23,700[156],Southern Baptist Convention,29.758938,-95.367697
+Second Ebenezer Church,Detroit, MI,5,000,Baptist,42.331551,-83.04664
+Set Free Christian Fellowship,Buena Park, CA,6,000,Non-denominational,33.870413,-117.996217
+Sevier Heights Baptist Church[28],Knoxville, TN,4,500,Southern Baptist Convention,35.960395,-83.921026
+Shadow Mountain Community Church,El Cajon, CA,7,500,Southern Baptist Convention,32.794773,-116.962527
+Shepherd of the Hills Church,Porter Ranch, CA,8,700,Christian churches and churches of Christ,34.281816,-118.561271
+The Shepherd's Church,Cary, NC,4,000,,35.788289,-78.781208
+Shiloh Church[157],Oakland, CA,4,500,Christian,37.804456,-122.271356
+Shoreline Christian Center,Austin, TX,8,000,Non-denominational,30.271129,-97.7437
+Shoreline City Church,Dallas, TX,5,000,Non-denominational,32.776272,-96.796856
+Sixth Avenue Baptist Church,Birmingham, AL,3,000,Baptist,33.520682,-86.802433
+Skybreak Church,Bryan, College Station, TX,2,500,Non-denominational,30.55471,-96.29591
+Skyline Church[158],La Mesa, CA,2,500,Wesleyan Church,32.767829,-117.023084
+Southeast Christian Church,Middletown, KY,25,940[160],Christian churches and churches of Christ,38.245349,-85.538849
+Southlake Foursquare Church,West Linn, OR,3,500,Foursquare Church,45.365676,-122.612314
+Southland Christian Church,Nicholasville, KY,12,600,Christian churches and churches of Christ,37.880634,-84.572996
+Spanish River Church[161],Boca Raton, FL,2,000,Presbyterian Church in America,26.358689,-80.083098
+St. Andrews Presbyterian Church,Newport Beach, CA,2,000,ECO: A Covenant Order of Evangelical Presbyterians,33.617009,-117.92944
+Stonebriar Community Church,Frisco, TX,5,200,Non-denominational evangelical,33.150674,-96.823612
+Substance Church[162],N/A, MN,12,000,Non-Denominational (ARC),32.786587,-97.044327
+The Ransom Church,Sioux Falls, SD,2,000,Wesleyan Church,43.546059,-96.731393
+The Summit Church,Durham, NC,6,600,Southern Baptist Convention,35.996653,-78.901805
+Temple Baptist Church[28],Powell, TN,6,000[29],Independent Baptist,36.031747,-84.027968
+Temple of Praise,Washington, DC,2,500,Non-denominational,38.895037,-77.036543
+Thomas Road Baptist Church,Lynchburg, VA,8,400,Southern Baptist Convention,37.413754,-79.142246
+Timberlake Church,Redmond, WA,3,000,Free Methodist Church,47.669414,-122.123877
+Timberline Church,Fort Collins, CO,6,000,Assemblies of God,40.550853,-105.066809
+Times Square Church,New York, NY,8,000,,40.750183,-73.983759
+Transformation Church,Tulsa, OK,4,100,Non-denominational,36.155681,-95.992911
+Trinity United Church of Christ,Chicago, IL,8,500,United Church of Christ,41.875562,-87.624421
+Triumph Church[163],Detroit, MI,11,600,Missionary Baptist,42.331551,-83.04664
+Truro Church,Fairfax, VA,4,000,Anglican Church in North America,38.846224,-77.306373
+Trinity Chapel Church of God,Powder Springs, GA,6,500,,33.859549,-84.683824
+Trinity Church Cedar Hill,N/A, TX,5,000,Non-denominational,46.434484,6.909872
+Twin Rivers Worship Center,N/A, MO,2,600,Church of God,59.9266825431611,15.8142380195549
+12Stone Church,Lawrenceville, GA,17,200,Wesleyan Church,33.956215,-83.987963
+University Park Baptist Church,Charlotte, NC,6,000,BGC,35.227209,-80.843083
+Valley Baptist Church,Bakersfield, CA,4,300,Southern Baptist Convention,35.373871,-119.019464
+Valley Bible Fellowship,Bakersfield, CA,10,300,,35.373871,-119.019464
+Valley Family Church[164],Kalamazoo, MI,4,000,Non-denominational,42.291707,-85.587229
+Valley View Church,Louisville, KY,5,000,Southern Baptist Convention,38.254238,-85.759407
+Venture Christian Church[165],Los Gatos, CA,6,000,Non-denominational,37.226611,-121.97468
+Victory Church[166],Lakeland, FL,2,000,Assemblies of God,28.039465,-81.949804
+Victory Church,Oklahoma City, OK,7,800,Non-denominational,35.472989,-97.517054
+Victory Christian Center,Tulsa, OK,9,300,Non-denominational,36.155681,-95.992911
+Victory Church[167],Norcross, GA,10,200,Non-denominational[168],33.941213,-84.213531
+The Village Church,Highland Village, TX,10,200,Southern Baptist Convention,33.091788,-97.046676
+Village Seven Presbyterian Church[169],Colorado Springs, CO,2,100,Presbyterian Church in America,38.833958,-104.825349
+Vineyard Cincinnati,Cincinnati, OH,3,000,Association of Vineyard Churches,39.101454,-84.51246
+Vineyard Columbus,Westerville, OH,7,900,Association of Vineyard Churches,40.126139,-82.929529
+Voices of Faith Ministries,Stone Mountain, GA,6,900,Southern Baptist Convention,33.808092,-84.170627
+VOUS Church,Miami, FL,3,500,Non-denominational,25.764993375,-80.1852740625
+Vineyard Church North Phoenix,Glendale, AZ,4,500,Association of Vineyard Churches,33.538686,-112.185994
+Wallace Memorial Baptist Church[28],Knoxville, TN,2,100[29],Southern Baptist Convention,35.960395,-83.921026
+Watermark Community Church,Dallas, TX,11,000,Non-denominational,32.776272,-96.796856
+The Well Community Church[171],Fresno, CA,4,000,Non-denominational,36.739442,-119.784831
+Watermark Wesleyan[172],Hamburg, NY,2,250,Wesleyan Church,42.716293,-78.828717
+West Angeles Cathedral,Los Angeles, CA,24,000[173],Church of God in Christ,34.053691,-118.242766
+WestGate Church[174],San Jose, CA,2,100,,37.336191,-121.890583
+West Side Christian Church[175],Springfield, IL,3,500,Non-denominational,39.799018,-89.643958
+Wheaton Bible Church,West Chicago, IL,3,000,Non-denominational,41.884751,-88.203961
+White's Chapel United Methodist Church,N/A, TX,5,000,United Methodist Church,46.434484,6.909872
+Whittier Area Community Church,Whittier, CA,3,000,Non-denominational,33.970878,-118.03084
+Willow Creek Community Church,South Barrington, IL,18,000[176],Non-denominational,42.087726,-88.150813
+Windsor Village United Methodist Church,Houston, TX,2,600[177],United Methodist Church,29.758938,-95.367697
+Wooddale Church[178],Eden Prairie, MN,5,000,Converge (Baptist denomination),44.854686,-93.470786
+Woodlands Church,The Woodlands, TX,18,400,Southern Baptist Convention,30.173419,-95.504686
+The Woodlands Methodist Church[179],The Woodlands, TX,2,900[42],United Methodist Church,30.173419,-95.504686
+Woodside Bible Church[180],Troy, MI,10,500,Baptist heritage,42.605589,-83.14993
+Word of Life Church,St. Joseph, MO,4,000,Nondenominational Christianity,39.768606,-94.846632
+Word of Faith Family Worship Cathedral,Austell, GA,8,300,Non-denominational,33.812606,-84.634378
+World Changers Church Int.,College Park, GA,14,000,Pentecostal, Word of Faith,33.653443,-84.449373
+World Overcomers Christian Church,Durham, NC,15,000,Non-denominational,35.996653,-78.901805
+World Harvest Church,Columbus, OH,13,000,Pentecostal,39.96226,-83.000707
+World Outreach Church,Murfreesboro, TN,15,000[181],Non-denominational,35.84604,-86.39211
+Xenos Christian Fellowship,Columbus, OH,6,000,Non-denominational,39.96226,-83.000707
+Young Nak Presbyterian Church[182],Los Angeles, CA,6,000,KPCA,34.053691,-118.242766
+Yuong Sang Presbyterian Church,Horsham, PA,5,000,KAPC,40.178442,-75.128506
