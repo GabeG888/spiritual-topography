@@ -2,13 +2,17 @@
 //React frontend for the spiritual topography map
 //https://github.com/mapbox/mapbox-react-examples/blob/master/markers-custom/src/Map.js
 
+
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import Navbar from "./components/navbar/Navbar.js";
 import { BrowserRouter as Router } from "react-router-dom";
 import counties_race_pop from './counties_race_pop.json'
+import churches from './churches.json'
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA';
+
  
 export default function App() {
 	//Initialize variables
@@ -17,16 +21,19 @@ export default function App() {
 	const [lat, setLat] = useState(39.8);
 	const [zoom, setZoom] = useState(3);
 	 
+	 
 	useEffect(() => {
 		//Create map
 		const map = new mapboxgl.Map({
 			container: mapContainer.current,
 			//style: 'mapbox://styles/gz430/cl6558vg9003i15phej1xoqqg',
-			//style: 'mapbox://styles/mapbox/streets-v11',
-			style: 'mapbox://styles/mapbox/dark-v10',
+			style: 'mapbox://styles/mapbox/streets-v11',
+			//style: 'mapbox://styles/mapbox/dark-v10',
 			center: [lng, lat],
-			zoom: zoom	
+			zoom: zoom,
+			projection: 'globe'
 		});
+		
 		
 		//Round lat and lng
 		map.on('move', () => {
@@ -35,13 +42,21 @@ export default function App() {
 			setZoom(map.getZoom().toFixed(2));
 		});
 		
+		
 		//Run when map loads
 		map.on('load', () => {
+			//Add church data
+			map.addSource('churches', {
+				type: 'geojson',
+				data: churches
+			});
+			
 			//Add data on counties with population of different ethnicities
 			map.addSource('counties_race_pop', {
 				type: 'geojson',
 				data: counties_race_pop
 			});
+
 
 			//Choropleth of county population
 			map.addLayer({
@@ -64,6 +79,9 @@ export default function App() {
 						]
 					},
 					'fill-opacity': 0.75
+				},
+				layout: {
+					'visibility': 'visible'
 				}
 			});
 			
@@ -81,8 +99,55 @@ export default function App() {
 				}
 			});
 			
+			//Churches
+			map.addLayer({
+				id: 'churches_basic',
+				type: 'circle',
+				source: 'churches',
+				paint: {
+					'circle-color': '#dd3333',
+					'circle-radius': {
+					'stops': [[8, 1], [11, 6], [16, 40]]
+					}
+				},
+				layout: {
+					'visibility': 'visible'
+				}
+			});
+			
+			
+			//Show info when a county is clicked
+			map.on('click', 'churches_basic', (e) => {
+				e.churchClicked = true;
+				var properties = e.features[0].properties;
+				var keys = Object.keys(properties);
+				var html = ''
+				if(keys.includes('name')) html += `<strong>${properties['name']}</strong><br>`;
+				if(keys.includes('addr')) html += `Address: ${properties['addr']}<br>`;
+				if(keys.includes('city')) html += `City: ${properties['city']}<br>`;
+				if(keys.includes('state')) html += `State: ${properties['state']}<br>`;
+				if(keys.includes('country')) html += `Country: ${properties['country']}<br>`;
+				if(keys.includes('attend')) html += `Attendees: ${properties['attend']}<br>`;
+				if(keys.includes('denom')) html += `Denomination: ${properties['denom']}<br>`;
+				new mapboxgl.Popup()
+				.setLngLat(e.lngLat)
+				.setHTML(html)
+				.addTo(map);
+			});
+			
+			// Change cursor to a pointer when over a county.
+			map.on('mousemove', 'churches_basic', () => {
+				map.getCanvas().style.cursor = 'pointer';
+			});
+			 
+			// Change cursor back when it is not over a county.
+			map.on('mouseleave', 'churches_basic', () => {
+					map.getCanvas().style.cursor = '';
+			});
+			
 			//Show info when a county is clicked
 			map.on('click', 'counties_pop', (e) => {
+				if(e.churchClicked) return;
 				const name = e.features[0].properties.name;
 				const pop = e.features[0].properties.pop;
 				const white_pop = e.features[0].properties.pop_wa;
@@ -108,7 +173,7 @@ export default function App() {
 			});
 			 
 			// Change cursor to a pointer when over a county.
-			map.on('mouseenter', 'counties_pop', () => {
+			map.on('mousemove', 'counties_pop', () => {
 				map.getCanvas().style.cursor = 'pointer';
 			});
 			 
