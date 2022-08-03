@@ -1,15 +1,19 @@
 import csv
+import os
 from os import listdir
 from geojson import Feature, Point, FeatureCollection, dump
 
 features = []
-filepaths = ['updated_cleaned_church_finder.csv', ]
+filepaths = []
+for file in os.listdir('../data'):
+    if 'final' in str.lower(file):
+        filepaths.append('../data/' + file)
 
 for file in filepaths:
         print('Adding ' + file)
         with open('../data/' + file, 'r', encoding='utf-8-sig') as f:
-            csv = csv.DictReader(f)
-            for row in csv:
+            reader = csv.DictReader(f)
+            for row in reader:
                 if 'lon' not in row.keys() or 'lat' not in row.keys():
                     continue
                 try:
