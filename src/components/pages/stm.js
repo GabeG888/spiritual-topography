@@ -132,6 +132,9 @@ function ResultList() {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );
