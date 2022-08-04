@@ -25,6 +25,17 @@ export default function Home() {
       zoom: zoom,
       projection: "globe",
     });
+    
+    //Background styling
+    map.on('style.load', () => {
+        map.setFog({
+            color: 'rgb(186, 210, 235)',
+            'high-color': 'rgb(36, 92, 223)',
+            'horizon-blend': 0.02,
+            'space-color': 'rgb(11, 11, 25)', 
+            'star-intensity': 0.6
+        });
+    });
 
     //Round lat and lng
     map.on("move", () => {
@@ -188,8 +199,6 @@ export default function Home() {
   }, []);
 
   return (
-    <>
       <div ref={mapContainer} className="map-container" />
-    </>
   );
 }
