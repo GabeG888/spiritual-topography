@@ -3,6 +3,7 @@ import "../../App.css";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import counties_race_pop from "../../counties_race_pop.json";
 import churches from "../../churches.json";
+import Sidebar from '../sidebar/Sidebar.js'
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA";
@@ -19,8 +20,8 @@ export default function Home() {
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       //style: 'mapbox://styles/gz430/cl6558vg9003i15phej1xoqqg',
-      style: "mapbox://styles/mapbox/streets-v11",
       //style: 'mapbox://styles/mapbox/dark-v10',
+      style: 'mapbox://styles/mapbox/outdoors-v11',
       center: [lng, lat],
       zoom: zoom,
       projection: "globe",
@@ -199,6 +200,9 @@ export default function Home() {
   }, []);
 
   return (
-      <div ref={mapContainer} className="map-container" />
+      <>
+        <div ref={mapContainer} className="map-container" />
+       // <div className="flex flex-col items-center justify-center py-2"><Sidebar /></div>
+      </>
   );
 }

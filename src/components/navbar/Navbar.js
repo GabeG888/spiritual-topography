@@ -28,12 +28,12 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="nav__border"></div>
-        <Link to="/" className="navbar-logo">
-          STM
-        </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
+        <Link to="/" className="navbar-logo">
+          STM
+        </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
             <Link
