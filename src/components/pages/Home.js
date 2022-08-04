@@ -40,6 +40,15 @@ export default function Home() {
         type: "geojson",
         data: churches,
       });
+    
+		//Add church data with clusters
+    map.addSource("churchesCluster", {
+      type: "geojson",
+      data: churches,
+      cluster: true,
+      clusterMaxZoom: 8,
+      clusterRadius: 1,
+    });
 
       //Add data on counties with population of different ethnicities
       map.addSource("counties_race_pop", {
@@ -92,7 +101,7 @@ export default function Home() {
       map.addLayer({
         id: "churches_basic",
         type: "circle",
-        source: "churches",
+        source: "churchesCluster",
         paint: {
           "circle-color": "#dd3333",
           "circle-radius": {
