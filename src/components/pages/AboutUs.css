@@ -59,7 +59,7 @@ body {
 }
 
 .card__image {
-  height: 12rem;
+  height: 17rem;
   width: 100%;
   object-fit: cover;
   justify-content: space-between;

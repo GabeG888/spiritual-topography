@@ -1,44 +1,50 @@
 import React from "react";
+import matt from "./images/matt.jpg";
+import alex from "./images/matt.jpg";
+import gabbie from "./images/gabbie.jpg";
+import gabe from "./images/gabe.jpg";
+import grace from "./images/grace.jpg";
+import frank from "./images/frank.jpg";
 import "./AboutUs.css";
 
 export default function AboutUs() {
   return (
     <div className="wrapper">
       <Card
-        img="./images/matt.jpg"
+        img={matt}
         title="Matthew Chan"
         role="Mentor"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description="[Description]"
       />
       <Card
-        img="./images/matt.jpg"
+        img={alex}
         title="Alex Shih"
         role="Mentor"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        description="[Description]"
       />
       <Card
-        img="./images/gabbie.jpg"
+        img={gabbie}
         title="Gabbie Liu"
-        role="Mentor"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        role="Member"
+        description="[Description]"
       />
       <Card
-        img="./images/gabe.jpg"
+        img={gabe}
         title="Gabe Gordon"
-        role="Mentor"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        role="Member"
+        description="[Description]"
       />
       <Card
-        img="./images/grace.jpg"
+        img={grace}
         title="Grace Chan"
-        role="Mentor"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        role="Member"
+        description="[Description]"
       />
       <Card
-        img="./images/frank.jpg"
+        img={frank}
         title="Frank Liu"
-        role="Mentor"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        role="Member"
+        description="[Description]"
       />
     </div>
   );
