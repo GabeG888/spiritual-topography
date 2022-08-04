@@ -2,7 +2,6 @@
 //React frontend for the spiritual topography map
 //https://github.com/mapbox/mapbox-react-examples/blob/master/markers-custom/src/Map.js
 import React from "react";
-import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import Navbar from "./components/navbar/Navbar.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
