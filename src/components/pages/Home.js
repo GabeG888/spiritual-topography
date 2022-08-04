@@ -9,6 +9,36 @@ import Sidebar from '../sidebar/Sidebar.js'
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA";
 
+var churchesOn = true;
+var churchClustering = true;
+
+function UpdateChurchDisplay(map){
+  if(churchesOn){
+    if(churchClustering){
+      map.setLayoutProperty('churches_basic', 'visibility', 'none');
+      map.setLayoutProperty('churches_cluster', 'visibility', 'visible');
+    }
+    else{
+      map.setLayoutProperty('churches_basic', 'visibility', 'visible');
+      map.setLayoutProperty('churches_cluster', 'visibility', 'none');
+    }
+  }
+  else{
+      map.setLayoutProperty('churches_basic', 'visibility', 'none');
+      map.setLayoutProperty('churches_cluster', 'visibility', 'none');
+  }
+}
+
+function SetChurchesOn(map, on){
+  churchesOn = on;
+  UpdateChurchDisplay(map);
+}
+
+function SetClustering(map, on){
+  churchClustering = on;
+  UpdateChurchDisplay(map);
+}
+
 export default function Home() {
   //Initialize variables
   const mapContainer = useRef(null);
@@ -151,17 +181,25 @@ export default function Home() {
         },
       });
       
-      document.getElementById('clustering-toggle').onchange = function (e) {
-        if(this.checked){
-          map.setLayoutProperty('churches_cluster', 'visibility', 'visible');
-          map.setLayoutProperty('churches_basic', 'visibility', 'none');
-        }
-        else {
-          map.setLayoutProperty('churches_cluster', 'visibility', 'none');
-          map.setLayoutProperty('churches_basic', 'visibility', 'visible');
-        }
+      document.getElementById('churches-toggle').onchange = function (e) {
+        SetChurchesOn(map, this.checked);
       }
       
+      document.getElementById('population-toggle').onchange = function (e) {
+        if(this.checked){
+          map.setLayoutProperty('counties_pop', 'visibility', 'visible');
+        }
+        else {
+          map.setLayoutProperty('counties_pop', 'visibility', 'none');
+        }
+      }
+            
+      document.getElementById('clustering-toggle').onchange = function (e) {
+        SetClustering(map, this.checked);
+      }
+      
+      document.getElementById('churches-toggle').checked = true;
+      document.getElementById('population-toggle').checked = true;
       document.getElementById('clustering-toggle').checked = true;
     });
 

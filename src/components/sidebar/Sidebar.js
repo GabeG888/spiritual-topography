@@ -25,6 +25,20 @@ const Sidebar = () => {
         <h3 className="text-4xl font-semibold text-white">Options</h3><br />
         <p className="text-xl text-white">
           <label className="relative flex justify-between items-center group p-2 text-xl">
+            Churches: 
+            <input type="checkbox" id="churches-toggle" className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md" />
+            <span className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-gray-300 rounded-full duration-300 ease-in-out 
+            peer-checked:bg-blue-600 after:w-4 after:h-4 after:bg-white after:rounded-full after:shadow-md after:duration-300
+            peer-checked:after:translate-x-4 group-hover:after:translate-x-1"></span>
+          </label>
+          <label className="relative flex justify-between items-center group p-2 text-xl">
+            Population: 
+            <input type="checkbox" id="population-toggle" className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md" />
+            <span className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-gray-300 rounded-full duration-300 ease-in-out 
+            peer-checked:bg-blue-600 after:w-4 after:h-4 after:bg-white after:rounded-full after:shadow-md after:duration-300
+            peer-checked:after:translate-x-4 group-hover:after:translate-x-1"></span>
+          </label>
+          <label className="relative flex justify-between items-center group p-2 text-xl">
             Clustering: 
             <input type="checkbox" id="clustering-toggle" className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md" />
             <span className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-gray-300 rounded-full duration-300 ease-in-out 
