@@ -13,8 +13,8 @@ import ContactUs from "./components/pages/ContactUs";
 export default function App() {
   //Map html
   return (
-    <div>
-      <div>
+    <div className="bg-black">
+      <div className="bg-black">
         <BrowserRouter>
           <Navbar />
           <Routes>

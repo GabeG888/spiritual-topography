@@ -56,6 +56,7 @@ body {
   cursor: pointer;
   transition: transform 200ms ease-in;
   flex: 0 0 33.333333%;
+  color: white;
 }
 
 .card__image {

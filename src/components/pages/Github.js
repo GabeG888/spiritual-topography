@@ -4,7 +4,7 @@ import "../../App.css";
 export default function Github() {
   return (
     <>
-      <h1 className="github">Github</h1>
+      <h1 className="text-white">Github</h1>
     </>
   );
 }
