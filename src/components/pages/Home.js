@@ -5,6 +5,7 @@ import counties_race_pop from "../../counties_race_pop.json";
 import churches from "../../churches.json";
 import Sidebar from '../sidebar/Sidebar.js'
 
+
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA";
 
@@ -47,20 +48,21 @@ export default function Home() {
 
     //Run when map loads
     map.on("load", () => {
+      
       //Add church data
       map.addSource("churches", {
         type: "geojson",
         data: churches,
       });
     
-		//Add church data with clusters
-    map.addSource("churchesCluster", {
-      type: "geojson",
-      data: churches,
-      cluster: true,
-      clusterMaxZoom: 8,
-      clusterRadius: 1,
-    });
+      //Add church data with clusters
+      map.addSource("churchesCluster", {
+        type: "geojson",
+        data: churches,
+        cluster: true,
+        clusterMaxZoom: 8,
+        clusterRadius: 1,
+      });
 
       //Add data on counties with population of different ethnicities
       map.addSource("counties_race_pop", {
@@ -113,6 +115,26 @@ export default function Home() {
       map.addLayer({
         id: "churches_basic",
         type: "circle",
+        source: "churches",
+        paint: {
+          "circle-color": "#dd3333",
+          "circle-radius": {
+            stops: [
+              [8, 1],
+              [11, 6],
+              [16, 40],
+            ],
+          },
+        },
+        layout: {
+          visibility: "none",
+        },
+      });
+      
+      //Churches
+      map.addLayer({
+        id: "churches_cluster",
+        type: "circle",
         source: "churchesCluster",
         paint: {
           "circle-color": "#dd3333",
@@ -128,72 +150,87 @@ export default function Home() {
           visibility: "visible",
         },
       });
+      
+      document.getElementById('clustering-toggle').onchange = function (e) {
+        if(this.checked){
+          map.setLayoutProperty('churches_cluster', 'visibility', 'visible');
+          map.setLayoutProperty('churches_basic', 'visibility', 'none');
+        }
+        else {
+          map.setLayoutProperty('churches_cluster', 'visibility', 'none');
+          map.setLayoutProperty('churches_basic', 'visibility', 'visible');
+        }
+      }
+      
+      document.getElementById('clustering-toggle').checked = true;
+    });
 
-      //Show info when a county is clicked
-      map.on("click", "churches_basic", (e) => {
-        e.churchClicked = true;
-        var properties = e.features[0].properties;
-        var keys = Object.keys(properties);
-        var html = "";
-        if (keys.includes("name"))
-          html += `<strong>${properties["name"]}</strong><br>`;
-        if (keys.includes("addr")) html += `Address: ${properties["addr"]}<br>`;
-        if (keys.includes("city")) html += `City: ${properties["city"]}<br>`;
-        if (keys.includes("state")) html += `State: ${properties["state"]}<br>`;
-        if (keys.includes("country"))
-          html += `Country: ${properties["country"]}<br>`;
-        if (keys.includes("attend"))
-          html += `Attendees: ${properties["attend"]}<br>`;
-        if (keys.includes("denom"))
-          html += `Denomination: ${properties["denom"]}<br>`;
-        new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
-      });
+    //Show info when a county is clicked
+    map.on("click", ["churches_basic", "churches_cluster"], (e) => {
+      e.churchClicked = true;
+      var properties = e.features[0].properties;
+      var keys = Object.keys(properties);
+      var html = "";
+      if (keys.includes("name"))
+        html += `<strong>${properties["name"]}</strong><br>`;
+      if (keys.includes("addr")) html += `Address: ${properties["addr"]}<br>`;
+      if (keys.includes("city")) html += `City: ${properties["city"]}<br>`;
+      if (keys.includes("state")) html += `State: ${properties["state"]}<br>`;
+      if (keys.includes("country"))
+        html += `Country: ${properties["country"]}<br>`;
+      if (keys.includes("attend"))
+        html += `Attendees: ${properties["attend"]}<br>`;
+      if (keys.includes("denom"))
+        html += `Denomination: ${properties["denom"]}<br>`;
+      new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
+    });
+    
+    
 
-      // Change cursor to a pointer when over a county.
-      map.on("mousemove", "churches_basic", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
+    // Change cursor to a pointer when over a county.
+    map.on("mousemove", "churches_basic", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
 
-      // Change cursor back when it is not over a county.
-      map.on("mouseleave", "churches_basic", () => {
-        map.getCanvas().style.cursor = "";
-      });
+    // Change cursor back when it is not over a county.
+    map.on("mouseleave", "churches_basic", () => {
+      map.getCanvas().style.cursor = "";
+    });
 
-      //Show info when a county is clicked
-      map.on("click", "counties_pop", (e) => {
-        if (e.churchClicked) return;
-        const name = e.features[0].properties.name;
-        const pop = e.features[0].properties.pop;
-        const white_pop = e.features[0].properties.pop_wa;
-        const black_pop = e.features[0].properties.pop_ba;
-        const indian_pop = e.features[0].properties.pop_ia;
-        const asian_pop = e.features[0].properties.pop_aa;
-        const islander_pop = e.features[0].properties.pop_na;
-        const mixed_pop = e.features[0].properties.pop_tom;
-        const hispanic_pop = e.features[0].properties.pop_h;
-        const white_percent = Math.round((10 * 100 * white_pop) / pop) / 10;
-        const black_percent = Math.round((10 * 100 * black_pop) / pop) / 10;
-        const indian_percent = Math.round((10 * 100 * indian_pop) / pop) / 10;
-        const asian_percent = Math.round((10 * 100 * asian_pop) / pop) / 10;
-        const islander_percent =
-          Math.round((10 * 100 * islander_pop) / pop) / 10;
-        const mixed_percent = Math.round((10 * 100 * mixed_pop) / pop) / 10;
-        const hispanic_percent =
-          Math.round((10 * 100 * hispanic_pop) / pop) / 10;
-        const html = `<strong>${name}</strong><p>Population: ${pop}<br>White: ${white_percent}%<br>Black: ${black_percent}%<br>American Indian/Alaskan: ${indian_percent}%
-				<br>Asian: ${asian_percent}%<br>Hawaiian/Islander: ${islander_percent}%<br>Mixed: ${mixed_percent}%<br><br>Hispanic: ${hispanic_percent}%</p>`;
-        new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
-      });
+    //Show info when a county is clicked
+    map.on("click", "counties_pop", (e) => {
+      if (e.churchClicked) return;
+      const name = e.features[0].properties.name;
+      const pop = e.features[0].properties.pop;
+      const white_pop = e.features[0].properties.pop_wa;
+      const black_pop = e.features[0].properties.pop_ba;
+      const indian_pop = e.features[0].properties.pop_ia;
+      const asian_pop = e.features[0].properties.pop_aa;
+      const islander_pop = e.features[0].properties.pop_na;
+      const mixed_pop = e.features[0].properties.pop_tom;
+      const hispanic_pop = e.features[0].properties.pop_h;
+      const white_percent = Math.round((10 * 100 * white_pop) / pop) / 10;
+      const black_percent = Math.round((10 * 100 * black_pop) / pop) / 10;
+      const indian_percent = Math.round((10 * 100 * indian_pop) / pop) / 10;
+      const asian_percent = Math.round((10 * 100 * asian_pop) / pop) / 10;
+      const islander_percent =
+        Math.round((10 * 100 * islander_pop) / pop) / 10;
+      const mixed_percent = Math.round((10 * 100 * mixed_pop) / pop) / 10;
+      const hispanic_percent =
+        Math.round((10 * 100 * hispanic_pop) / pop) / 10;
+      const html = `<strong>${name}</strong><p>Population: ${pop}<br>White: ${white_percent}%<br>Black: ${black_percent}%<br>American Indian/Alaskan: ${indian_percent}%
+      <br>Asian: ${asian_percent}%<br>Hawaiian/Islander: ${islander_percent}%<br>Mixed: ${mixed_percent}%<br><br>Hispanic: ${hispanic_percent}%</p>`;
+      new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
+    });
 
-      // Change cursor to a pointer when over a county.
-      map.on("mousemove", "counties_pop", () => {
-        map.getCanvas().style.cursor = "pointer";
-      });
+    // Change cursor to a pointer when over a county.
+    map.on("mousemove", "counties_pop", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
 
-      // Change cursor back when it is not over a county.
-      map.on("mouseleave", "counties_pop", () => {
-        map.getCanvas().style.cursor = "";
-      });
+    // Change cursor back when it is not over a county.
+    map.on("mouseleave", "counties_pop", () => {
+      map.getCanvas().style.cursor = "";
     });
 
     return () => map.remove();
