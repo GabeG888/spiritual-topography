@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Show and hide denom layers</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<style>
+    #menu {
+        background: #fff;
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        right: 10px;
+        border-radius: 3px;
+        width: 120px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu a {
+        font-size: 13px;
+        color: #404040;
+        display: block;
+        margin: 0;
+        padding: 0;
+        padding: 10px;
+        text-decoration: none;
+        border-bottom: 0.5px solid rgba(0, 0, 0, 0.4);
+        text-align: center;
+    }
+
+    #menu a:last-child {
+        border: none;
+    }
+
+    #menu a:hover {
+        background-color: #f8f8f8;
+        color: #404040;
+    }
+
+    #menu a.active {
+        background-color: #188578d3;
+        color: #ffffff;
+    }
+
+    #menu a.active:hover {
+        background: #13a059a9;
+    }
+</style>
+<!-- Load the `mapbox-gl-geocoder` plugin. -->
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+<nav id="menu"></nav>
+<div id="map"></div>
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/gz430/cl69plsbk000g15ms01nkk357',
+        zoom: 3,
+        center: [-100, 40]
+    });
+    // Add the control to the map.
+    map.addControl(
+    new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl
+    })
+    );
+    // Wait until the map has finished loading.
+    map.on('load', () => {
+        // Add a custom vector tileset source. This tileset contains
+        // point features representing museums. Each feature contains
+        // three properties. For example:
+        // {
+        //     alt_name: "Museo Arqueologico",
+        //     name: "Museo Inka",
+        //     tourism: "museum"
+        // }
+        map.addSource('church', {
+            type: 'vector',
+            url: 'mapbox://tileset/gz430.3wq4uso3'
+        });
+        map.addLayer({
+            'id': 'catholic',
+            'type': 'circle',
+            'source': 'church',
+            'source-layer': 'denom',
+            'layout': {
+                // Make the layer visible by default.
+                'visibility': 'visible'
+            }
+            
+        });
+        map.addLayer({
+            'id': 'baptist',
+            'type': 'circle',
+            'source': 'church',
+            'source-layer': 'denom',
+            'layout': {
+                // Make the layer visible by default.
+                'visibility': 'visible'
+            }
+        });
+        
+        map.addLayer({
+            'id': 'prebyterian',
+            'type': 'circle',
+            'source': 'church',
+            'source-layer': 'denom',
+            'layout': {
+                // Make the layer visible by default.
+                'visibility': 'visible'
+            }
+            
+        });
+        map.addLayer({
+            'id': 'pentecostal',
+            'type': 'circle',
+            'source': 'church',
+            'source-layer': 'denom',
+            'layout': {
+                // Make the layer visible by default.
+                'visibility': 'visible'
+            }
+            
+        })
+    })
+
+
+    // After the last frame rendered before the map enters an "idle" state.
+    map.on('idle', () => {
+        // If these two layers were not added to the map, abort
+        if (!map.getLayer('catholic') || !map.getLayer('baptist')||!map.getLayer('presbyterian')||!map.getLayer('pentecostal')) {
+            return;
+        }
+
+        // Enumerate ids of the layers.
+        const toggleableLayerIds = ['catholic', 'baptist','presbyterian','pentecostal'];
+
+        // Set up the corresponding toggle button for each layer.
+        for (const id of toggleableLayerIds) {
+            // Skip layers that already have a button set up.
+            if (document.getElementById(id)) {
+                continue;
+            }
+
+            // Create a link.
+            const link = document.createElement('a');
+            link.id = id;
+            link.href = '#';
+            link.textContent = id;
+            link.className = 'active';
+
+            // Show or hide layer when the toggle is clicked.
+            link.onclick = function (e) {
+                const clickedLayer = this.textContent;
+                e.preventDefault();
+                e.stopPropagation();
+
+                const visibility = map.getLayoutProperty(
+                    clickedLayer,
+                    'visibility'
+                );
+
+                // Toggle layer visibility by changing the layout object's visibility property.
+                if (visibility === 'visible') {
+                    map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+                    this.className = '';
+                } else {
+                    this.className = 'active';
+                    map.setLayoutProperty(
+                        clickedLayer,
+                        'visibility',
+                        'visible'
+                    );
+                }
+            };
+
+            const layers = document.getElementById('menu');
+            layers.appendChild(link);
+        }
+    });
+</script>
+
+</body>
+</html>
