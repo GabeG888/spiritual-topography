@@ -8,7 +8,7 @@ import { sendToVercelAnalytics } from "./vitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="bg-black">
+    <div>
       <App />
     </div>
   </React.StrictMode>,
