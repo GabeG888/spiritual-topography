@@ -12,6 +12,7 @@ mapboxgl.accessToken =
 var churchesOn = true;
 var churchClustering = true;
 
+//Set layers on/off based on variables
 function UpdateChurchDisplay(map){
   if(churchesOn){
     if(churchClustering){
@@ -29,11 +30,13 @@ function UpdateChurchDisplay(map){
   }
 }
 
+//Set variable on or off and update
 function SetChurchesOn(map, on){
   churchesOn = on;
   UpdateChurchDisplay(map);
 }
 
+//Set variable on or off and update
 function SetClustering(map, on){
   churchClustering = on;
   UpdateChurchDisplay(map);
@@ -109,15 +112,15 @@ export default function Home() {
           "fill-color": {
             property: "pop_density",
             stops: [
-              [0, "#000000"],
-              [50, "#000022"],
-              [100, "#000044"],
-              [500, "#000066"],
+              [0, "#0000ff"],
+              [50, "#0000ee"],
+              [100, "#0000cc"],
+              [500, "#0000aa"],
               [1000, "#000088"],
-              [5000, "#0000aa"],
-              [10000, "#0000cc"],
-              [50000, "#0000ee"],
-              [100000, "#0000ff"],
+              [5000, "#000066"],
+              [10000, "#000044"],
+              [50000, "#000022"],
+              [100000, "#000000"],
             ],
           },
           "fill-opacity": 0.75,
@@ -181,10 +184,12 @@ export default function Home() {
         },
       });
       
+      //Run function when toggle clicked
       document.getElementById('churches-toggle').onchange = function (e) {
         SetChurchesOn(map, this.checked);
       }
       
+      //Update layers when toggle clicked
       document.getElementById('population-toggle').onchange = function (e) {
         if(this.checked){
           map.setLayoutProperty('counties_pop', 'visibility', 'visible');
@@ -193,11 +198,13 @@ export default function Home() {
           map.setLayoutProperty('counties_pop', 'visibility', 'none');
         }
       }
-            
+      
+      //Run function when toggle clicked
       document.getElementById('clustering-toggle').onchange = function (e) {
         SetClustering(map, this.checked);
       }
       
+      //Set default settings
       document.getElementById('churches-toggle').checked = true;
       document.getElementById('population-toggle').checked = true;
       document.getElementById('clustering-toggle').checked = true;
@@ -224,14 +231,23 @@ export default function Home() {
     });
     
     
-
-    // Change cursor to a pointer when over a county.
+    // Change cursor to a pointer when over a church.
     map.on("mousemove", "churches_basic", () => {
       map.getCanvas().style.cursor = "pointer";
     });
 
-    // Change cursor back when it is not over a county.
+    // Change cursor back when it is not over a church.
     map.on("mouseleave", "churches_basic", () => {
+      map.getCanvas().style.cursor = "";
+    });
+    
+    // Change cursor to a pointer when over a church.
+    map.on("mousemove", "churches_cluster", () => {
+      map.getCanvas().style.cursor = "pointer";
+    });
+
+    // Change cursor back when it is not over a church.
+    map.on("mouseleave", "churches_cluster", () => {
       map.getCanvas().style.cursor = "";
     });
 
