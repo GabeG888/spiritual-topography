@@ -4,7 +4,8 @@
 }
 
 * {
-  font-family: sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 .nav--collapsed {
@@ -13,17 +14,22 @@
 
 .navbar {
   /* background: linear-gradient(90deg, #5c5c5c 0%, #2e2e2e 100%); */
-  background: white;
-  height: 80px;
+  /* height: 100px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   top: -200px;
   /* padding-bottom: var(--nav-border-width); */
   /* position: relative; */
   /* flex-shrink: 0; */
   overflow-y: auto;
+}
+
+.logo {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
 }
 
 .nav--collapsed {
@@ -48,6 +54,7 @@
 
 .navbar-logo {
   color: black;
+  display: flex;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -62,7 +69,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -70,12 +77,14 @@
   justify-content: end;
   margin-right: 2rem;
   top: -200px;
+  color: black;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
   height: 80px;
+  color: black;
 }
 
 .nav-links {
@@ -85,13 +94,13 @@
 }
 
 .nav-links:hover {
-  background-color: gray;
+  background-color: #71717a;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: black;
 }
 
 .nav-links-mobile {
@@ -115,16 +124,15 @@
     position: absolute;
     top: 80px;
     left: -100%;
-    opacity: 1;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: white;
+    justify-content: center;
     left: 0;
-    opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    /* opacity: 0.8; */
   }
 
   .nav-links {
@@ -132,6 +140,7 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    color: black;
   }
 
   .nav-links:hover {
@@ -141,9 +150,15 @@
 
   .navbar-logo {
     position: absolute;
+    text-align: center;
+    justify-content: center;
     top: 0;
     left: 30px;
     transform: translate(25%, 50%);
+  }
+
+  .navbar-logo-content {
+    text-align: center;
   }
 
   .menu-icon {
@@ -157,7 +172,7 @@
   }
 
   .fa-times {
-    color: #fff;
+    color: black;
     font-size: 2rem;
   }
 
@@ -170,7 +185,7 @@
     width: 80%;
     background: #1888ff;
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 1.5rem;
   }
 

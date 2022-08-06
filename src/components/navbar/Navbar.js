@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../pages/images/stm.jpg";
 import "./navbar.css";
 
 function Navbar() {
@@ -26,46 +27,58 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar">
-        <div className="nav__border"></div>
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
-        </div>
-        <Link to="/" className="navbar-logo">
-          STM
-        </Link>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
-            <Link
-              to="/about-us"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              About Us
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/stm" className="nav-links" onClick={closeMobileMenu}>
-              What is a STM?
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/github" className="nav-links" onClick={closeMobileMenu}>
-              Github
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact-us"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Contact Us
-            </Link>
-          </li>
-          {/* <Button /> */}
-        </ul>
-      </nav>
+      <div className="bg-zinc-300 opacity-50 z-50">
+        <nav className="navbar">
+          <div className="menu-icon" onClick={handleClick}>
+            <i
+              className={
+                click ? "text-black fas fa-times" : " text-black fas fa-bars"
+              }
+            />
+          </div>
+          <Link to="/" className="navbar-logo">
+            <div>
+              Spiritual Topography Map{" "}
+              <img className="logo" src={logo} alt="STM logo" />
+            </div>
+          </Link>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <Link
+                to="/about-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/stm" className="nav-links" onClick={closeMobileMenu}>
+                What is a STM?
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/github"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Github
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/contact-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Contact Us
+              </Link>
+            </li>
+            {/* <Button /> */}
+          </ul>
+        </nav>
+      </div>
     </>
   );
 }

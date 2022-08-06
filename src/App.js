@@ -1,7 +1,7 @@
-//Authors: Gabe Gordon,
+//Authors: Gabe Gordon, Frank Liu
 //React frontend for the spiritual topography map
 //https://github.com/mapbox/mapbox-react-examples/blob/master/markers-custom/src/Map.js
-import React from "react";
+import { React, useState } from "react";
 import Navbar from "./components/navbar/Navbar.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/pages/Home";
@@ -16,7 +16,6 @@ export default function App() {
     <div>
       <div>
         <BrowserRouter>
-          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
@@ -24,6 +23,7 @@ export default function App() {
             <Route path="/github" element={<Github />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
+          <Navbar className="z-50" />
         </BrowserRouter>
       </div>
     </div>

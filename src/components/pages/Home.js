@@ -3,8 +3,8 @@ import "../../App.css";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
 import counties_race_pop from "../../counties_race_pop.json";
 import churches from "../../churches.json";
-import Sidebar from '../sidebar/Sidebar.js'
-
+import Sidebar from "../sidebar/Sidebar.js";
+import Navbar from "../navbar/Navbar.js";
 
 mapboxgl.accessToken =
   "pk.eyJ1IjoiZ3o0MzAiLCJhIjoiY2w2NTRydHJjMnh1aTNpcDRlaW05dmd6cCJ9.8aFMIwekHEwU9UckleyzlA";
@@ -13,31 +13,29 @@ var churchesOn = true;
 var churchClustering = true;
 
 //Set layers on/off based on variables
-function UpdateChurchDisplay(map){
-  if(churchesOn){
-    if(churchClustering){
-      map.setLayoutProperty('churches_basic', 'visibility', 'none');
-      map.setLayoutProperty('churches_cluster', 'visibility', 'visible');
+function UpdateChurchDisplay(map) {
+  if (churchesOn) {
+    if (churchClustering) {
+      map.setLayoutProperty("churches_basic", "visibility", "none");
+      map.setLayoutProperty("churches_cluster", "visibility", "visible");
+    } else {
+      map.setLayoutProperty("churches_basic", "visibility", "visible");
+      map.setLayoutProperty("churches_cluster", "visibility", "none");
     }
-    else{
-      map.setLayoutProperty('churches_basic', 'visibility', 'visible');
-      map.setLayoutProperty('churches_cluster', 'visibility', 'none');
-    }
-  }
-  else{
-      map.setLayoutProperty('churches_basic', 'visibility', 'none');
-      map.setLayoutProperty('churches_cluster', 'visibility', 'none');
+  } else {
+    map.setLayoutProperty("churches_basic", "visibility", "none");
+    map.setLayoutProperty("churches_cluster", "visibility", "none");
   }
 }
 
 //Set variable on or off and update
-function SetChurchesOn(map, on){
+function SetChurchesOn(map, on) {
   churchesOn = on;
   UpdateChurchDisplay(map);
 }
 
 //Set variable on or off and update
-function SetClustering(map, on){
+function SetClustering(map, on) {
   churchClustering = on;
   UpdateChurchDisplay(map);
 }
@@ -55,21 +53,21 @@ export default function Home() {
       container: mapContainer.current,
       //style: 'mapbox://styles/gz430/cl6558vg9003i15phej1xoqqg',
       //style: 'mapbox://styles/mapbox/dark-v10',
-      style: 'mapbox://styles/mapbox/outdoors-v11',
+      style: "mapbox://styles/mapbox/outdoors-v11",
       center: [lng, lat],
       zoom: zoom,
       projection: "globe",
     });
-    
+
     //Background styling
-    map.on('style.load', () => {
-        map.setFog({
-            color: 'rgb(186, 210, 235)',
-            'high-color': 'rgb(36, 92, 223)',
-            'horizon-blend': 0.02,
-            'space-color': 'rgb(11, 11, 25)', 
-            'star-intensity': 0.6
-        });
+    map.on("style.load", () => {
+      map.setFog({
+        color: "rgb(186, 210, 235)",
+        "high-color": "rgb(36, 92, 223)",
+        "horizon-blend": 0.02,
+        "space-color": "rgb(11, 11, 25)",
+        "star-intensity": 0.6,
+      });
     });
 
     //Round lat and lng
@@ -81,13 +79,12 @@ export default function Home() {
 
     //Run when map loads
     map.on("load", () => {
-      
       //Add church data
       map.addSource("churches", {
         type: "geojson",
         data: churches,
       });
-    
+
       //Add church data with clusters
       map.addSource("churchesCluster", {
         type: "geojson",
@@ -163,7 +160,7 @@ export default function Home() {
           visibility: "none",
         },
       });
-      
+
       //Churches
       map.addLayer({
         id: "churches_cluster",
@@ -183,31 +180,30 @@ export default function Home() {
           visibility: "visible",
         },
       });
-      
+
       //Run function when toggle clicked
-      document.getElementById('churches-toggle').onchange = function (e) {
+      document.getElementById("churches-toggle").onchange = function (e) {
         SetChurchesOn(map, this.checked);
-      }
-      
+      };
+
       //Update layers when toggle clicked
-      document.getElementById('population-toggle').onchange = function (e) {
-        if(this.checked){
-          map.setLayoutProperty('counties_pop', 'visibility', 'visible');
+      document.getElementById("population-toggle").onchange = function (e) {
+        if (this.checked) {
+          map.setLayoutProperty("counties_pop", "visibility", "visible");
+        } else {
+          map.setLayoutProperty("counties_pop", "visibility", "none");
         }
-        else {
-          map.setLayoutProperty('counties_pop', 'visibility', 'none');
-        }
-      }
-      
+      };
+
       //Run function when toggle clicked
-      document.getElementById('clustering-toggle').onchange = function (e) {
+      document.getElementById("clustering-toggle").onchange = function (e) {
         SetClustering(map, this.checked);
-      }
-      
+      };
+
       //Set default settings
-      document.getElementById('churches-toggle').checked = true;
-      document.getElementById('population-toggle').checked = true;
-      document.getElementById('clustering-toggle').checked = true;
+      document.getElementById("churches-toggle").checked = true;
+      document.getElementById("population-toggle").checked = true;
+      document.getElementById("clustering-toggle").checked = true;
     });
 
     //Show info when a county is clicked
@@ -229,8 +225,7 @@ export default function Home() {
         html += `Denomination: ${properties["denom"]}<br>`;
       new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
     });
-    
-    
+
     // Change cursor to a pointer when over a church.
     map.on("mousemove", "churches_basic", () => {
       map.getCanvas().style.cursor = "pointer";
@@ -240,7 +235,7 @@ export default function Home() {
     map.on("mouseleave", "churches_basic", () => {
       map.getCanvas().style.cursor = "";
     });
-    
+
     // Change cursor to a pointer when over a church.
     map.on("mousemove", "churches_cluster", () => {
       map.getCanvas().style.cursor = "pointer";
@@ -267,11 +262,9 @@ export default function Home() {
       const black_percent = Math.round((10 * 100 * black_pop) / pop) / 10;
       const indian_percent = Math.round((10 * 100 * indian_pop) / pop) / 10;
       const asian_percent = Math.round((10 * 100 * asian_pop) / pop) / 10;
-      const islander_percent =
-        Math.round((10 * 100 * islander_pop) / pop) / 10;
+      const islander_percent = Math.round((10 * 100 * islander_pop) / pop) / 10;
       const mixed_percent = Math.round((10 * 100 * mixed_pop) / pop) / 10;
-      const hispanic_percent =
-        Math.round((10 * 100 * hispanic_pop) / pop) / 10;
+      const hispanic_percent = Math.round((10 * 100 * hispanic_pop) / pop) / 10;
       const html = `<strong>${name}</strong><p>Population: ${pop}<br>White: ${white_percent}%<br>Black: ${black_percent}%<br>American Indian/Alaskan: ${indian_percent}%
       <br>Asian: ${asian_percent}%<br>Hawaiian/Islander: ${islander_percent}%<br>Mixed: ${mixed_percent}%<br><br>Hispanic: ${hispanic_percent}%</p>`;
       new mapboxgl.Popup().setLngLat(e.lngLat).setHTML(html).addTo(map);
@@ -291,9 +284,11 @@ export default function Home() {
   }, []);
 
   return (
-      <>
-        <div ref={mapContainer} className="map-container" />
-       // <div className="flex flex-col items-center justify-center py-2"><Sidebar /></div>
-      </>
+    <>
+      <div ref={mapContainer} className="map-container" />
+      <div className="flex flex-col items-center justify-center">
+        <Sidebar />
+      </div>
+    </>
   );
 }
