@@ -1,0 +1,9 @@
+{
+  "forms": {
+    "signupForm": {
+      "name": "Sign-up Form",
+      "actions": [{ "type": "email", "to": "your@email.com" }],
+      "fields": { "email": { "required": "true", "type": "email" } }
+    }
+  }
+}

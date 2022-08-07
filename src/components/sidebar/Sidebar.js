@@ -19,12 +19,12 @@ const Sidebar = () => {
           onClick={() => setShowSidebar(!showSidebar)}
           className="fixed z-30 flex items-center cursor-pointer right-0 top-24 m-5 text-black text-4xl"
         >
-          <FontAwesomeIcon icon={faAnglesLeft} className="text-zinc-500" />
+          <FontAwesomeIcon icon={faAnglesLeft} className="text-white" />
         </button>
       )}
 
       <div
-        className={`top-20 right-0 w-auto bg-zinc-300 opacity-50 p-10 text-black fixed h-auto z-40 ease-in-out duration-300 ${
+        className={`top-20 right-0 w-auto bg-white opacity-50 p-10 text-black fixed h-auto z-40 ease-in-out duration-300 ${
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       >
@@ -39,7 +39,7 @@ const Sidebar = () => {
               className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md"
             />
             <span
-              className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-zinc-300 rounded-full duration-300 ease-in-out 
+              className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-white rounded-full duration-300 ease-in-out 
             peer-checked:bg-blue-600 after:w-4 after:h-4 after:bg-white after:rounded-full after:shadow-md after:duration-300
             peer-checked:after:translate-x-4 group-hover:after:translate-x-1"
             ></span>
@@ -52,7 +52,7 @@ const Sidebar = () => {
               className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md"
             />
             <span
-              className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-zinc-300 rounded-full duration-300 ease-in-out 
+              className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-white rounded-full duration-300 ease-in-out 
             peer-checked:bg-blue-600 after:w-4 after:h-4 after:bg-white after:rounded-full after:shadow-md after:duration-300
             peer-checked:after:translate-x-4 group-hover:after:translate-x-1"
             ></span>
@@ -65,7 +65,7 @@ const Sidebar = () => {
               className="absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md"
             />
             <span
-              className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-zinc-300 rounded-full duration-300 ease-in-out 
+              className="w-11 h-6 flex items-center flex-shrink-0 ml-4 p-1 bg-white rounded-full duration-300 ease-in-out 
             peer-checked:bg-blue-600 after:w-4 after:h-4 after:bg-white after:rounded-full after:shadow-md after:duration-300
             peer-checked:after:translate-x-4 group-hover:after:translate-x-1"
             ></span>

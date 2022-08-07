@@ -18,12 +18,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
-  top: -200px;
-  /* padding-bottom: var(--nav-border-width); */
-  /* position: relative; */
-  /* flex-shrink: 0; */
-  overflow-y: auto;
+  font-size: 0.8rem;
+  top: -56px;
+  /* overflow-y: auto; */
 }
 
 .logo {
@@ -53,7 +50,7 @@
 }
 
 .navbar-logo {
-  color: black;
+  color: #3f3f46;
   display: flex;
   justify-self: start;
   margin-left: 20px;
@@ -84,7 +81,7 @@
   display: flex;
   align-items: center;
   height: 80px;
-  color: black;
+  color: #3f3f46;
 }
 
 .nav-links {

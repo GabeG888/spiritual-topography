@@ -16,6 +16,7 @@ export default function App() {
     <div>
       <div>
         <BrowserRouter>
+          <Navbar className="z-50" />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about-us" element={<AboutUs />} />
@@ -23,7 +24,6 @@ export default function App() {
             <Route path="/github" element={<Github />} />
             <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
-          <Navbar className="z-50" />
         </BrowserRouter>
       </div>
     </div>

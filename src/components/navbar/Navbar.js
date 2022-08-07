@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../pages/images/stm.jpg";
+import logo from "../pages/images/stmLogo.jpg";
 import "./navbar.css";
 
 function Navbar() {
@@ -27,8 +27,8 @@ function Navbar() {
 
   return (
     <>
-      <div className="bg-zinc-300 opacity-50 z-50">
-        <nav className="navbar">
+      <div className="bg-white z-50 h-14 w-full">
+        <nav className="navbar h-14 w-full">
           <div className="menu-icon" onClick={handleClick}>
             <i
               className={
@@ -36,7 +36,7 @@ function Navbar() {
               }
             />
           </div>
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo h-14 w-full">
             <div>
               Spiritual Topography Map{" "}
               <img className="logo" src={logo} alt="STM logo" />

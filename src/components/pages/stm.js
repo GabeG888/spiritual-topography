@@ -57,7 +57,14 @@ function ResultList() {
         </h3>
         <h3 className="text-black italic text-lg">noun</h3>
         <br />
-        <h3 className="text-black text-lg">
+      </div>
+    </div>
+  );
+}
+
+// dictionary style
+{
+  /* <h3 className="text-black text-lg">
           1. if we mapped all the churches in a city, would we be able to spot
           spiritual dead zones?
         </h3>
@@ -137,8 +144,5 @@ function ResultList() {
         <br />
         <br />
         <br />
-        <br />
-      </div>
-    </div>
-  );
+        <br /> */
 }
