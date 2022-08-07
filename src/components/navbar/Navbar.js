@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="bg-white z-50 h-14 w-full">
+      <div className="shadow-2xl bg-white z-50 h-14 w-full">
         <nav className="navbar h-14 w-full">
           <div className="menu-icon" onClick={handleClick}>
             <i
