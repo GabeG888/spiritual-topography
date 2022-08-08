@@ -9,7 +9,7 @@ const Sidebar = () => {
     <>
       {showSidebar ? (
         <button
-          className="flex text-4xl text-black items-center cursor-pointer fixed right-0 top-24 m-5 z-50"
+          className="flex text-4xl text-black items-center cursor-pointer fixed right-0 top-28 m-5 z-50"
           onClick={() => setShowSidebar(!showSidebar)}
         >
           <FontAwesomeIcon icon={faAnglesRight} className="text-black" />
@@ -17,14 +17,14 @@ const Sidebar = () => {
       ) : (
         <button
           onClick={() => setShowSidebar(!showSidebar)}
-          className="fixed z-30 flex items-center cursor-pointer right-0 top-24 m-5 text-black text-4xl"
+          className="fixed z-30 flex items-center cursor-pointer right-0 top-28 m-5 text-black text-4xl"
         >
           <FontAwesomeIcon icon={faAnglesLeft} className="text-white" />
         </button>
       )}
 
       <div
-        className={`top-20 right-0 w-auto bg-white opacity-50 p-10 text-black fixed h-auto z-40 ease-in-out duration-300 ${
+        className={`top-28 right-0 w-auto bg-white opacity-50 p-10 text-black fixed h-auto z-40 ease-in-out duration-300 ${
           showSidebar ? "translate-x-0 " : "translate-x-full"
         }`}
       >

@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <nav class="flex items-center flex-wrap lg:justify-between bg-cyan-300 p-6 shadow-xl">
+    <nav class="flex items-center flex-wrap lg:justify-between bg-white p-6 shadow-2xl">
       <div class="sm:block sm:visible text-black fill-current hover:text-cyan-300">
         <button
           onClick={handleClick}
@@ -38,18 +38,18 @@ function Navbar() {
           <FontAwesomeIcon icon={click ? faXmark : faBars} />
         </button>
       </div>
-      <div class="flex justify-start items-start shrink-0 text-black">
-        <img
-          class="shadow-xl fill-current h-8 lg:w-24 md:w-20 mr-2"
-          viewBox="0 0 54 54"
-          src={logo}
-        ></img>
-        <span class="font-semibold text-xl tracking-tight">
-          <Link to="/" onClick={closeMobileMenu}>
+      <Link to="/" onClick={closeMobileMenu}>
+        <div class="flex justify-start items-start shrink-0 text-black">
+          <img
+            class="shadow-xl fill-current h-8 w-12 lg:w-24 md:w-20 mr-2"
+            viewBox="0 0 54 54"
+            src={logo}
+          ></img>
+          <span class="font-semibold text-base md:text-xl tracking-tight">
             Spiritual Topography Map
-          </Link>
-        </span>
-      </div>
+          </span>
+        </div>{" "}
+      </Link>
       <div
         className={
           click

@@ -87,7 +87,7 @@ function ContactUs() {
           <br />
           <input
             type="submit"
-            class="text-4xl flex flex-col justify-center items-center flex-shrink-0 py-1 px-2 transform rounded overflow-hidden shadow-lg hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 hover:bg-cyan-300 duration-300 col-start-2 row-span-1"
+            class="hover:bg-zinc-400 text-4xl flex flex-col justify-center items-center flex-shrink-0 py-1 px-2 transform rounded overflow-hidden shadow-lg hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
             value="Submit"
           />
           <br />
