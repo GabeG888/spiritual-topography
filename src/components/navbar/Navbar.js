@@ -33,7 +33,7 @@ function Navbar() {
       <div class="sm:block sm:visible text-black fill-current hover:text-cyan-300">
         <button
           onClick={handleClick}
-          className="text-black hover:bg-white transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 fill-current visible lg:hidden mr-4 flex items-center flex-wrap px-3 py-2 shadow-xl rounded"
+          className="z-50 top-40 text-black hover:bg-white transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 fill-current visible lg:hidden mr-4 flex items-center flex-wrap px-3 py-2 shadow-xl rounded"
         >
           <FontAwesomeIcon icon={click ? faXmark : faBars} />
         </button>
@@ -54,55 +54,55 @@ function Navbar() {
         className={
           click
             ? "visible flex flex-col space-y-16 justify-center items-center w-screen h-screen z-50 hover:transition-all"
-            : "sm:hidden block flex-grow lg:flex lg:items-center w-auto justify-end"
+            : "z-50 bg-white sm:hidden block flex-grow lg:flex lg:items-center w-auto justify-end"
         }
       >
-        <div>
+        <div className="animate-bounce">
           <Link
             to="/about-us"
             className={
               click
-                ? "visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
-                : "hidden lg:visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
+                ? "bg-white visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
+                : "z-50 hidden lg:bg-white visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
             }
             onClick={closeMobileMenu}
           >
             About Us
           </Link>
         </div>
-        <div>
+        <div className="animate-bounce">
           <Link
             to="/stm"
             className={
               click
-                ? "visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
-                : "hidden lg:visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
+                ? "bg-white visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
+                : "z-50 hidden lg:bg-white visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
             }
             onClick={closeMobileMenu}
           >
             What is a STM?
           </Link>
         </div>
-        <div>
+        <div className="animate-bounce">
           <Link
             to="/github"
             className={
               click
-                ? "visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
-                : "hidden lg:visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
+                ? "bg-white visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
+                : "z-50 hidden lg:bg-white visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
             }
             onClick={closeMobileMenu}
           >
             Github
           </Link>
         </div>
-        <div>
+        <div className="animate-bounce">
           <Link
             to="/contact-us"
             className={
               click
-                ? "visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
-                : "hidden lg:visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
+                ? "bg-white visible shadow-xl lg:inline-block text-4xl leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1 p-4"
+                : "z-50 hidden lg:bg-white visible shadow-xl lg:inline-block text-sm px-4 py-2 leading-none rounded text-black hover:text-cyan-300 hover:bg-white mt-4 lg:mt-0 transform overflow-hidden hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1"
             }
             onClick={closeMobileMenu}
           >

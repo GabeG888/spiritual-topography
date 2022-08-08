@@ -13,7 +13,7 @@ function ContactUs() {
     <div className="text-black hover:text-black inset-x-0 bottom-12 md:bottom-8 ml-auto mr-auto mt-16 mb-auto flex justify-center items-center max-w-2xl transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 hover:bg-white duration-300 col-start-2 row-span-1">
       <div className="flex flex-col justify-center items-center gap-8">
         <br />
-        <div className="text-8xl">
+        <div className="text-6xl md:text-8xl">
           Let's Chat
           <span className="text-zinc-500 hover:text-zinc-400 inline-block">
             .
@@ -28,7 +28,7 @@ function ContactUs() {
           action="https://formspree.io/f/mnqrayrz"
           method="post"
         >
-          <fieldset id="fs-frm-inputs" className="py-2 p-8 text-4xl">
+          <fieldset id="fs-frm-inputs" className="py-2 p-8 text-2xl md:text-4xl">
             <label
               for="full-name"
               className="flex flex-col justify-center items-center"

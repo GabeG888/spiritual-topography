@@ -11,7 +11,7 @@ import Github from "./components/pages/Github";
 import ContactUs from "./components/pages/ContactUs";
 
 export default function App() {
-  //Map html
+  //Map html q
   return (
     <div>
       <div>

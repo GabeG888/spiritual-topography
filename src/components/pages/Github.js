@@ -9,7 +9,7 @@ export default function Github() {
       <div className="flex justify-center items-center h-screen">
         <FontAwesomeIcon
           icon={faGithub}
-          className="text-gray text-9xl shadow-xl hover:shadow-2xl rounded-full font-bold transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+          className="animate-bounce text-gray text-9xl shadow-xl hover:shadow-2xl rounded-full font-bold transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
         />
       </div>
       {/* <iframe
