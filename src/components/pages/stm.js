@@ -51,8 +51,8 @@ function Content() {
       </div>
       <div className="h-1/3 w-3/5">
         <div>
-          <p className="text-4xl">
-            <span className="bg-yellow-200 tracking-normal font-bold">
+          <div className="text-3xl">
+            <span className="bg-yellow-300 tracking-normal font-bold">
               Remixing data to establish a Theology of Place{" "}
             </span>
             <span className="bg-pink-300 tracking-normal font-bold">
@@ -62,7 +62,38 @@ function Content() {
             <span className="bg-blue-300 tracking-normal font-bold">
               in order to promote Church Growth and Evangelism.
             </span>
-          </p>
+          </div>
+        </div>
+      </div>
+      <div className="description">
+        <div class="p-28 flex flex-row items-center justify-center bg-white space-x-44">
+          <div class="h-24 w-48 relative transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1">
+            <div class="absolute inset-0 flex rounded-full">
+              <div class="h-full w-full bg-yellow-300 rounded-lg shadow-lg">
+                <div className="text-white text-4xl flex items-center justify-center h-24">
+                  Vision
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-24 w-48 relative transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1">
+            <div class="absolute inset-0 flex rounded-full">
+              <div class="h-full w-full bg-pink-300 rounded-lg shadow-lg">
+                <div className="text-white text-4xl flex items-center justify-center h-24">
+                  Description
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-24 w-48 relative transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-1 hover:scale-110 duration-300 col-start-2 row-span-1">
+            <div class="absolute inset-0 flex rounded-full">
+              <div class="h-full w-full bg-blue-300 rounded-lg shadow-lg">
+                <div className="text-white text-4xl flex items-center justify-center h-24">
+                  Outcome
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

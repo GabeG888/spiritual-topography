@@ -18,7 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.8rem;
+  font-size: 1rem;
   top: -56px;
   /* overflow-y: auto; */
 }
