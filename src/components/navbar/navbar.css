@@ -8,6 +8,10 @@
   font-family: "PT Sans", sans-serif;
 }
 
+.fonticons {
+  color: white;
+}
+
 .nav--collapsed {
   height: var(--nav-border-width);
 }

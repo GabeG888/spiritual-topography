@@ -161,9 +161,9 @@ function Content() {
 //               placeholder="Search for a word"
 //             />
 //             <div></div>
-//             <button className="text-gray border-l px-4 py-2 bg-white-500 hover:bg-white-400 text-white font-bold border-b-4 border-white hover:border-white-500 rounded">
-//               <FontAwesomeIcon icon={faMagnifyingGlass} className="text-gray" />
-//             </button>
+            // <button className="text-gray border-l px-4 py-2 bg-white-500 hover:bg-white-400 text-white font-bold border-b-4 border-white hover:border-white-500 rounded">
+            //   <FontAwesomeIcon icon={faMagnifyingGlass} className="text-gray" />
+            // </button>
 //           </div>
 //         </div>
 //       </div>
