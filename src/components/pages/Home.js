@@ -11,6 +11,7 @@ mapboxgl.accessToken =
 
 var churchesOn = true;
 var churchClustering = true;
+var query = '';
 
 //Set layers on/off based on variables
 function UpdateChurchDisplay(map) {
@@ -38,6 +39,11 @@ function SetChurchesOn(map, on) {
 function SetClustering(map, on) {
   churchClustering = on;
   UpdateChurchDisplay(map);
+}
+
+function normalize(string) {
+  if(string == undefined) return undefined;
+  else return string.trim().toLowerCase();
 }
 
 export default function Home() {
@@ -75,6 +81,66 @@ export default function Home() {
       setLng(map.getCenter().lng.toFixed(4));
       setLat(map.getCenter().lat.toFixed(4));
       setZoom(map.getZoom().toFixed(2));
+      
+      if(query != '')
+      {
+        const filtered = [];
+      
+        if(churchClustering){
+          map.setFilter('churches_cluster', null);
+          
+          for (const feature of map.querySourceFeatures('churchesCluster', { layers: ['churches_cluster'] })) {
+            const name = normalize(feature.properties.name);
+            const denom = normalize(feature.properties.denom);
+            const addr = normalize(feature.properties.addr);
+            const city = normalize(feature.properties.city);
+            const state = normalize(feature.properties.state);
+            const country = normalize(feature.properties.country);
+            if ((name && name.includes(query)) || (denom && denom.includes(query)) || (addr && addr.includes(query)) ||
+            (city && city.includes(query)) || (state && state.includes(query)) || (country && country.includes(query))) {
+              filtered.push(feature);
+            }
+          }
+          
+          var names = [];
+          for(let i = 0; i < filtered.length; i++){
+            names.push(filtered[i].properties.name);
+          }
+          
+          map.setFilter('churches_cluster', [
+          'in',
+          ['get', 'name'],
+          ["literal", names]
+          ]);
+        }
+        else{
+          map.setFilter('churches_basic', null);
+          
+          for (const feature of map.querySourceFeatures('churches', { layers: ['churches_basic'] })) {
+            const name = normalize(feature.properties.name);
+            const denom = normalize(feature.properties.denom);
+            const addr = normalize(feature.properties.addr);
+            const city = normalize(feature.properties.city);
+            const state = normalize(feature.properties.state);
+            const country = normalize(feature.properties.country);
+            if ((name && name.includes(query)) || (denom && denom.includes(query)) || (addr && addr.includes(query)) ||
+            (city && city.includes(query)) || (state && state.includes(query)) || (country && country.includes(query))) {
+              filtered.push(feature);
+            }
+          }
+          
+          var names = [];
+          for(let i = 0; i < filtered.length; i++){
+            names.push(filtered[i].properties.name);
+          }
+          
+          map.setFilter('churches_basic', [
+          'in',
+          ['get', 'name'],
+          ["literal", names]
+          ]);
+        }
+      }
     });
 
     //Run when map loads
@@ -109,15 +175,15 @@ export default function Home() {
           "fill-color": {
             property: "pop_density",
             stops: [
-              [0, "#0000ff"],
-              [50, "#0000ee"],
-              [100, "#0000cc"],
-              [500, "#0000aa"],
-              [1000, "#000088"],
-              [5000, "#000066"],
-              [10000, "#000044"],
-              [50000, "#000022"],
-              [100000, "#000000"],
+              [0, "#8888ff"],
+              [50, "#7777ff"],
+              [100, "#6666ff"],
+              [500, "#5555ff"],
+              [1000, "#4444ff"],
+              [5000, "#3333ff "],
+              [10000, "#2222ff"],
+              [50000, "#1111ff"],
+              [100000, "#0000ff"],
             ],
           },
           "fill-opacity": 0.75,
@@ -198,6 +264,73 @@ export default function Home() {
       //Run function when toggle clicked
       document.getElementById("clustering-toggle").onchange = function (e) {
         SetClustering(map, this.checked);
+      };
+      
+      //Run function when toggle clicked
+      document.getElementById("clustering-toggle").onchange = function (e) {
+        SetClustering(map, this.checked);
+      };
+      
+      //Filter map when search bar changed
+      document.getElementById("search").onkeyup = function (e) {
+        query = normalize(e.target.value);
+        
+        const filtered = [];
+        
+        if(churchClustering){
+          map.setFilter('churches_cluster', null);
+          
+          for (const feature of map.querySourceFeatures('churchesCluster', { layers: ['churches_cluster'] })) {
+            const name = normalize(feature.properties.name);
+            const denom = normalize(feature.properties.denom);
+            const addr = normalize(feature.properties.addr);
+            const city = normalize(feature.properties.city);
+            const state = normalize(feature.properties.state);
+            const country = normalize(feature.properties.country);
+            if ((name && name.includes(query)) || (denom && denom.includes(query)) || (addr && addr.includes(query)) ||
+            (city && city.includes(query)) || (state && state.includes(query)) || (country && country.includes(query))) {
+              filtered.push(feature);
+            }
+          }
+          
+          var names = [];
+          for(let i = 0; i < filtered.length; i++){
+            names.push(filtered[i].properties.name);
+          }
+          
+          map.setFilter('churches_cluster', [
+          'in',
+          ['get', 'name'],
+          ["literal", names]
+          ]);
+        }
+        else{
+          map.setFilter('churches_basic', null);
+          
+          for (const feature of map.querySourceFeatures('churches', { layers: ['churches_basic'] })) {
+            const name = normalize(feature.properties.name);
+            const denom = normalize(feature.properties.denom);
+            const addr = normalize(feature.properties.addr);
+            const city = normalize(feature.properties.city);
+            const state = normalize(feature.properties.state);
+            const country = normalize(feature.properties.country);
+            if ((name && name.includes(query)) || (denom && denom.includes(query)) || (addr && addr.includes(query)) ||
+            (city && city.includes(query)) || (state && state.includes(query)) || (country && country.includes(query))) {
+              filtered.push(feature);
+            }
+          }
+          
+          var names = [];
+          for(let i = 0; i < filtered.length; i++){
+            names.push(filtered[i].properties.name);
+          }
+          
+          map.setFilter('churches_basic', [
+          'in',
+          ['get', 'name'],
+          ["literal", names]
+          ]);
+        }
       };
 
       //Set default settings
