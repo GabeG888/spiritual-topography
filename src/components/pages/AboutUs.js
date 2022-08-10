@@ -16,20 +16,21 @@ export default function AboutUs() {
           <div class="font-bold text-xl mb-2">Matthew Chan</div>
           <div class="font-bold text-lg mb-2 italic text-zinc-500">Mentor</div>
           <p class="text-gray-700 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.
+            Born in Foggy SF, raised in sunny HK
+            <br />
+            let me tell you a story about how my life got flipped-turned upside
+            down.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2 inline-block align-bottom self-end">
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #God
+            #friedriceforlife
           </span>
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #is a
+            #digitalmissionary
           </span>
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #designer.
+            #bibleinnovation
           </span>
         </div>
       </div>
@@ -60,7 +61,9 @@ export default function AboutUs() {
         <img class="w-fit" src={gabbie} alt="Sunset in the mountains" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Gabbie Liu</div>
-          <div class="font-bold text-lg mb-2 italic text-zinc-500">Member</div>
+          <div class="font-bold text-lg mb-2 italic text-zinc-500">
+            UX Designer/Graphic Designer
+          </div>
           <p class="text-gray-700 text-sm md:text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -83,7 +86,9 @@ export default function AboutUs() {
         <img class="w-fit" src={gabe} alt="Sunset in the mountains" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Gabe Gordon</div>
-          <div class="font-bold text-lg mb-2 italic text-zinc-500">Member</div>
+          <div class="font-bold text-lg mb-2 italic text-zinc-500">
+            Developer
+          </div>
           <p class="text-gray-700 text-sm md:text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -106,7 +111,9 @@ export default function AboutUs() {
         <img class="w-fit" src={grace} alt="Sunset in the mountains" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Grace Zhao</div>
-          <div class="font-bold text-lg mb-2 italic text-zinc-500">Member</div>
+          <div class="font-bold text-lg mb-2 italic text-zinc-500">
+            Developer
+          </div>
           <p class="text-gray-700 text-sm md:text-base">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Voluptatibus quia, nulla! Maiores et perferendis eaque,
@@ -129,22 +136,27 @@ export default function AboutUs() {
         <img class="w-fit" src={frank} alt="Sunset in the mountains" />
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">Frank Liu</div>
-          <div class="font-bold text-lg mb-2 italic text-zinc-500">Member</div>
+          <div class="font-bold text-lg mb-2 italic text-zinc-500">
+            Developer Team Lead
+          </div>
           <p class="text-gray-700 text-sm md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicinnpmg elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.
+            CS @ UC Berkeley and excited to work on meaningful projects with
+            technology.
+            <br />
+            Feel free to reach out
+            <br />
+            frank.j.liu (at) berkeley.edu
           </p>
         </div>
         <div class="px-6 pt-4 pb-2 inline-block align-bottom self-end">
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #God
+            #tennis
           </span>
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #is a
+            #worship
           </span>
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #designer.
+            #berkeleyanova
           </span>
         </div>
       </div>
