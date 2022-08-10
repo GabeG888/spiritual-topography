@@ -79,7 +79,7 @@ function Content() {
               <div class="text-white text-2xl inset-0 bg-gray-500 rounded-lg shadow-2xl flex items-center justify-center">
                 Description
               </div>
-              <div className="w-fit bg-white m-12 p-6 tracking-normal font-bold transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-2 hover:scale-110 hover:bg-lime-200 duration-300">
+              <div className="w-fit bg-white m-12 p-6 tracking-normal font-bold transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-2 hover:scale-125 hover:bg-lime-200 duration-300">
                 To equip urban ministers to strategically engage with cultural
                 and unreached people groups.
               </div>
@@ -88,7 +88,7 @@ function Content() {
               <div class="text-white text-2xl inset-0 bg-gray-500 rounded-lg shadow-2xl flex items-center justify-center">
                 Outcome
               </div>
-              <div className="w-fit bg-white m-12 p-6 tracking-normal font-bold transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-2 hover:scale-110 hover:bg-gray-200 duration-400">
+              <div className="w-fit bg-white m-12 p-6 tracking-normal font-bold transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-2 hover:scale-125 hover:bg-gray-200 duration-400">
                 To promote Church Growth and Evangelism.
               </div>
             </div>
