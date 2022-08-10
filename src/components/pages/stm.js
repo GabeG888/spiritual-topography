@@ -71,7 +71,7 @@ function Content() {
               <div class="text-white text-2xl inset-0 bg-gray-500 rounded-lg shadow-2xl flex items-center justify-center">
                 Vision
               </div>
-              <div className="shadow-2xl hover:z-40 w-fit bg-white m-12 p-6 tracking-normal font-bold transform hover:-translate-y-2 hover:scale-125 transition duration-300 rounded overflow-hidden hover:shadow-2xl ease-in-outbg-white hover:bg-cyan-200 duration-400">
+              <div className="shadow-2xl w-fit bg-white m-12 p-6 tracking-normal font-bold transform hover:-translate-y-2 hover:scale-125 transition duration-300 rounded overflow-hidden hover:shadow-2xl ease-in-outbg-white hover:bg-cyan-200 duration-400">
                 Remixing data to establish a Theology of Place.
               </div>
             </div>
@@ -79,7 +79,7 @@ function Content() {
               <div class="text-white text-2xl inset-0 bg-gray-500 rounded-lg shadow-2xl flex items-center justify-center">
                 Description
               </div>
-              <div className="w-fit bg-white m-12 p-6 tracking-normal font-bold transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-2 hover:scale-125 hover:bg-lime-200 duration-300">
+              <div className="shadow-2xl w-fit bg-white m-12 p-6 tracking-normal font-bold transform hover:-translate-y-2 hover:scale-125 transition duration-300 rounded overflow-hidden hover:shadow-2xl ease-in-outbg-white hover:bg-lime-200 duration-400">
                 To equip urban ministers to strategically engage with cultural
                 and unreached people groups.
               </div>
@@ -88,7 +88,7 @@ function Content() {
               <div class="text-white text-2xl inset-0 bg-gray-500 rounded-lg shadow-2xl flex items-center justify-center">
                 Outcome
               </div>
-              <div className="w-fit bg-white m-12 p-6 tracking-normal font-bold transform rounded overflow-hidden shadow-xl hover:shadow-2xl transition ease-in-outbg-white hover:-translate-y-2 hover:scale-125 hover:bg-gray-200 duration-400">
+              <div className="shadow-2xl w-fit bg-white m-12 p-6 tracking-normal font-bold transform hover:-translate-y-2 hover:scale-125 transition duration-300 rounded overflow-hidden hover:shadow-2xl ease-in-outbg-white hover:bg-gray-200 duration-400">
                 To promote Church Growth and Evangelism.
               </div>
             </div>
