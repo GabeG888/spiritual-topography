@@ -1,8 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import "../../App.css";
 import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-loader-syntax
-import counties_race_pop from "../../counties_race_pop.json";
-import churches from "../../churches.json";
 import Sidebar from "../sidebar/Sidebar.js";
 import Navbar from "../navbar/Navbar.js";
 
@@ -159,13 +157,13 @@ export default function Home() {
       //Add church data
       map.addSource("churches", {
         type: "geojson",
-        data: churches,
+        data: "https://raw.githubusercontent.com/GabeG888/spiritual-topography/main/data-scraping/data/churches.json",
       });
 
       //Add church data with clusters
       map.addSource("churchesCluster", {
         type: "geojson",
-        data: churches,
+        data: "https://raw.githubusercontent.com/GabeG888/spiritual-topography/main/data-scraping/data/churches.json",
         cluster: true,
         clusterMaxZoom: 8,
         clusterRadius: 1,
@@ -174,7 +172,7 @@ export default function Home() {
       //Add data on counties with population of different ethnicities
       map.addSource("counties_race_pop", {
         type: "geojson",
-        data: counties_race_pop,
+        data: "https://raw.githubusercontent.com/GabeG888/spiritual-topography/main/data-scraping/data/counties_race_pop.json",
       });
 
       //Choropleth of county population
