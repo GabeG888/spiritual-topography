@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../pages/images/stmLogo.jpg";
+import logo from "../pages/images/logo_topo.jpg";
 import "./navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -41,11 +41,11 @@ function Navbar() {
       <Link to="/" onClick={closeMobileMenu}>
         <div class="flex justify-start items-start shrink-0 text-black">
           <img
-            class="shadow-xl fill-current h-8 w-12 lg:w-24 md:w-20 mr-2"
+            class="shadow-xl fill-current xs:h-6 xs:w-16 md:h-10 md:w-28 mr-2"
             viewBox="0 0 54 54"
             src={logo}
           ></img>
-          <span class="font-semibold text-base md:text-xl tracking-tight">
+          <span class="align-middle	font-semibold xs:text-base md:text-xl md:mt-1 tracking-tight">
             Spiritual Topography Map
           </span>
         </div>{" "}
