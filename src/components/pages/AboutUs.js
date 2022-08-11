@@ -16,10 +16,8 @@ export default function AboutUs() {
           <div class="font-bold text-2xl mb-2">Matthew Chan</div>
           <div class="font-bold text-xl mb-2 italic text-zinc-500">Mentor</div>
           <p class="text-gray-700 xs:text-sm md:text-lg">
-            Born in Foggy SF, raised in sunny HK
-            <br />
-            let me tell you a story about how my life got flipped-turned upside
-            down.
+            Born in Foggy SF, raised in sunny HK let me tell you a story about
+            how my life got flipped-turned upside down.
           </p>
         </div>
         <div class="px-6 pt-4 pb-2 inline-block align-bottom self-end">
@@ -66,20 +64,20 @@ export default function AboutUs() {
             UX Designer/Graphic Designer
           </div>
           <p class="text-gray-700 xs:text-sm md:text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.
+            Exercise Physiology major at USciences in Philly. Can usually be
+            found in class, at the gym, or hanging out with friends and family.
+            Connect w/ me here: h.gabbie.l (at) gmail.com !
           </p>
         </div>
         <div class="px-6 pt-4 pb-2 inline-block align-bottom self-end">
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 xs:text-sm md:text-base font-semibold text-gray-700 mr-2 mb-2">
-            #God
+            #wannagetboba
           </span>
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 xs:text-sm md:text-base font-semibold text-gray-700 mr-2 mb-2">
-            #is a
+            #worship
           </span>
           <span class="inline-block  bg-gray-200 rounded-full px-3 py-1 xs:text-sm md:text-base font-semibold text-gray-700 mr-2 mb-2">
-            #designer.
+            #truthbeautygoodness
           </span>
         </div>
       </div>

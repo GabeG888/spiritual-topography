@@ -4,7 +4,7 @@
 import { React } from "react";
 import Navbar from "./components/navbar/Navbar.js";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/pages/Home";
+// import Home from "./components/pages/Home";
 import AboutUs from "./components/pages/AboutUs";
 import Stm from "./components/pages/stm";
 import Github from "./components/pages/Github";
@@ -18,7 +18,7 @@ export default function App() {
         <BrowserRouter>
           <Navbar className="z-50" />
           <Routes>
-            <Route path="/" element={<Home />} />
+            {/* <Route path="/" element={<Home />} /> */}
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/stm" element={<Stm />} />
             <Route path="/github" element={<Github />} />
